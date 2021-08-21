@@ -1,6 +1,6 @@
 # Vika 2, 30. ágúst–5. september 2021
 
-**Þessi vikuáætlun hefur ekki verið uppfærð, **Þessi vikuáætlun hefur ekki verið uppfærð, hér er aðeins afrit frá [vefforritun 1, 2020](https://github.com/vefforritun/vef1-2020).**.**
+**Þessi vikuáætlun hefur ekki verið uppfærð, hér er aðeins afrit frá [vefforritun 1, 2020](https://github.com/vefforritun/vef1-2020).**
 
 ## Fyrirlestrar
 

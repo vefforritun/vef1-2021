@@ -1,4 +1,9 @@
-# Fyrirlestur 1, 24. ágúst 2020
+# Vika 1, 23.–29. ágúst 2021
+
+**Þessi vikuáætlun hefur ekki verið uppfærð, hér er aðeins afrit frá [vefforritun 1, 2020](https://github.com/vefforritun/vef1-2020).**
+
+## Fyrirlestrar
+
 
 [Fyrirlestur 1.1: Kynning](01.1.kynning.md), [vídeó]()
 

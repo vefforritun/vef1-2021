@@ -2,8 +2,6 @@
 
 Hér má nálgast alla fyrirlestra, dæmi og verkefni í áfangagnum vefforritun 1 kenndan við HÍ haustið 2021.
 
-[Upptökur af öllum fyrirlestrum má nálgast á YouTube](https://www.youtube.com/playlist?list=PLRj-ccg8iozz8f2M4yIZFQOxU_Rg9Uraa).
-
 ## Kennsluáætlun
 
 | Vika | Mánudagur     | Viðfangsefni                                                      | Verkefni              | Skil                 |
@@ -27,7 +25,7 @@ Nánar er farið yfir kennsluáætlun í [fyrirlestri 1.1](./vikur/01/01.1.kynni
 
 ## Lesefni
 
-[Heildar lesáætlun og leseni](./lesefni.md), einnig á hverju vikublaði.
+[Heildar lesáætlun og lesefni](./lesefni.md), einnig á hverju vikublaði.
 
 Kennslubækur:
 
@@ -46,6 +44,12 @@ Hvert vikublað samanstendur af:
 * Aukaefni er tiltekið sem efni sem skal skoða, setja upp eða prófa meðfram eða eftir fyrirlestra.
 * „Verkefni vikunnar“ inniheldur tillögu að verkefnum fyrir vikuna.
 * Ítarefni er efni sem ekki er gerð krafa um að sé farið yfir en mun veita dýpri skilning á námsefninu og kynna efni sem er utan námsefnis en tengist vefforritun.
+
+### Fyrirlestrar
+
+Fyrirlestrar eru haldnir 15:00-17:20 á mánudögum. Upptökur af öllum fyrirlestrum eru settir inn eftir það, í seinasta lagi daginn eftir.
+
+[Upptökur af öllum fyrirlestrum má nálgast á YouTube](https://www.youtube.com/playlist?list=PLRj-ccg8iozz8f2M4yIZFQOxU_Rg9Uraa).
 
 ### Vikur
 
