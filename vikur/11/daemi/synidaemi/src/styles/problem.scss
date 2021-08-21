@@ -1,0 +1,25 @@
+@import 'config';
+
+.problem {
+  &__timer {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: $gutter;
+  }
+
+  &__question {
+    font-size: 2rem;
+    margin-bottom: $gutter;
+  }
+
+  &__input {
+    font-family: $fonts;
+    font-size: 2rem;
+    margin-bottom: $gutter;
+    padding: 5px;
+  }
+
+  &--hidden {
+    display: none;
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "synidaemi",
+  "version": "1.0.0",
+  "description": "Forrita skal viðmót sem leyfir að bæta við, breyta, eyða og klára verkefni af lista.",
+  "main": "scripts.js",
+  "scripts": {
+    "dev": "browser-sync start --server --files index.html styles.css scripts.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "eslint": "^7.12.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}

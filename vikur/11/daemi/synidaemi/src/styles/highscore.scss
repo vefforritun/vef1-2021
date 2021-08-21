@@ -1,0 +1,27 @@
+@import 'config';
+
+.highscore {
+  flex: 1;
+  padding: $gutter;
+
+  &__title {
+    margin-bottom: $gutter;
+  }
+
+  &__scores {
+    margin-bottom: $gutter;
+  }
+
+  &__number {
+    display: inline-block;
+    margin-right: $gutter / 2;
+  }
+
+  &__name {
+    font-weight: bold;
+  }
+
+  &__button &__button--hidden {
+    display: none;
+  }
+}

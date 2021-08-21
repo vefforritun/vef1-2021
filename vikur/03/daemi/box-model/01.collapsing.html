@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Collapsing margins</title>
+    <style>
+    p { margin: 50px; }
+    /*
+    á milli tveggja p er aðeins 50px margin
+    ekki 50px+50px þar sem þau falla saman
+    */
+    p.more { margin-bottom: 100px; }
+    /*
+    milli p.more og næsta p er 100px margin ekki 100px + 50px
+    einnig vegna þess að margin falla saman
+    */
+    </style>
+  </head>
+
+  <body>
+
+    <p>Fyrsta málsgrein.</p>
+    <p class="more">Önnur málsgrein.</p>
+    <p>Þriðja málsgrein.</p>
+  </body>
+</html>

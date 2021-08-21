@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.heading {
+  margin-bottom: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2rem;
+}
+
+.items {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 15px;
+}
+
+.item__checkbox {
+  margin-right: 20px;
+  transform: scale(2);
+}
+
+.item__text {
+  padding: 5px;
+  flex: 1;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 100%;
+  text-overflow: ellipsis;
+}
+
+.item--done .item__text {
+  text-decoration: line-through;
+}
+
+.item__edit {
+  padding: 5px;
+  font-size: 1rem;
+  flex: 1;
+}
+
+.item__button {
+  padding: 5px;
+  font-size: 1rem;
+}
+
+.form__input {
+  padding: 5px;
+  font-size: 1rem;
+}
+
+.form__button {
+  padding: 5px;
+  font-size: 1rem;
+}

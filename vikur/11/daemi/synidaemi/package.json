@@ -1,0 +1,40 @@
+{
+  "name": "synidaemi",
+  "version": "1.0.0",
+  "description": "Útfæra skal reiknileik sem byggir á verkefni 7. Notast við öll þau tól sem við höfum séð í vetur. Allt útlit er gefið með sass ásamt viðeigandi HTML. Leyfilegt er að breyta út af því sem gefið er.",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test:eslint": "eslint ./src/**/*.js --fix",
+    "test:stylelint": "stylelint ./src/styles/**/*.scss --syntax scss",
+    "test": "concurrently npm:test:*",
+
+    "build:rollup": "rollup -c",
+    "build:sass": "node-sass --source-map-embed ./src/styles/styles.scss ./dist/styles.css",
+    "build": "concurrently npm:build:*",
+
+    "dev:browsers-sync": "browser-sync start --server --files index.html ./dist/styles.css ./dist/bundle.js",
+    "dev:rollup": "rollup -c -w",
+    "dev:sass": "node-sass --source-map-embed --watch --recursive ./src/styles/styles.scss ./dist/styles.css",
+    "dev": "concurrently npm:dev:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "browser-sync": "^2.26.13",
+    "concurrently": "^5.3.0",
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "node-sass": "^5.0.0",
+    "rollup": "^2.33.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "stylelint": "^13.7.2",
+    "stylelint-config-sass-guidelines": "^7.1.0",
+    "stylelint-config-standard": "^20.0.0"
+  }
+}

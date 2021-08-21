@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="/skraning" method="post">
+      <fieldset>
+        <legend>Persónuupplýsingar</legend>
+        <label for="name">
+          Nafn:
+          <input type="text" id="name">
+        </label>
+        <div>
+          <label for="phone">Sími:</label>
+          <input
+            type="text"
+            id="phone"
+            pattern="[0-9]{3}-[0-9]{4}"
+            placeholder="Á forminu 000-0000"
+          >
+        </div>
+        <div>
+          <label for="comment">Athugasemdir:</label>
+          <textarea name="comment" id="comment"></textarea>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Uppáhalds litur</legend>
+        <label><input name="color" type="radio" value="red"> Rauður</label>
+        <label><input name="color" type="radio" value="green"> Grænn</label>
+      </fieldset>
+
+      <button type="reset">Byrja upp á nýtt</button>
+      <button>Senda</button>
+    </form>
+  </body>
+</html>

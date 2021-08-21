@@ -1,0 +1,16 @@
+{
+  "name": "v9",
+  "version": "1.0.0",
+  "description": "verkefni 9",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "dev": "browser-sync start --server --files index.html styles.css scripts.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.3"
+  }
+}
