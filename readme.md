@@ -41,7 +41,7 @@ Hvert vikublað samanstendur af:
 * Lesefni fyrir vikuna.
 * Fyrirlestri á mánudegi, yfirleitt skipt í þrennt.
 * Dæmi tengd fyrirlestri.
-* Aukaefni er tiltekið sem efni sem skal skoða, setja upp eða prófa meðfram eða eftir fyrirlestra.
+* Aukaefni er tiltekið sem efni sem skal skoða, setja upp, eða prófa meðfram eða eftir fyrirlestra.
 * „Verkefni vikunnar“ inniheldur tillögu að verkefnum fyrir vikuna.
 * Ítarefni er efni sem ekki er gerð krafa um að sé farið yfir en mun veita dýpri skilning á námsefninu og kynna efni sem er utan námsefnis en tengist vefforritun.
 
@@ -73,7 +73,7 @@ Verkefni eru sett fyrir í fyrirlestri á mánudegi og skal skila fyrir lok þri
 
 Dæmatímar eru í vikum 2.–14.
 
-Sjá á Uglu og Canvas síðu námskeiðis.
+Sjá á Uglu og Canvas síðum námskeiðis.
 
 ## Lokapróf
 

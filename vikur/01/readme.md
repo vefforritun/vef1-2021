@@ -1,9 +1,17 @@
 # Vika 1, 23.–29. ágúst 2021
 
-**Þessi vikuáætlun hefur ekki verið uppfærð, hér er aðeins afrit frá [vefforritun 1, 2020](https://github.com/vefforritun/vef1-2020).**
+**Þessi vikuáætlun er í vinnslu og verður lokið fyrir fyrirlestur 23. ágúst.**
+
+## Lesefni
+
+### Bókin um vefforritun
+
+* [Kafli 0: Inngangur](https://bok.vefforritun.is/00.inngangur.html)
+* [Kafli 1: Internetið & vefurinn](https://bok.vefforritun.is/01.internetid.html)
+* [Kafli 2: Sagan hingað til](https://bok.vefforritun.is/02.saga.html)
+* [Kafli 3: HTML](https://bok.vefforritun.is/03.html.html)
 
 ## Fyrirlestrar
-
 
 [Fyrirlestur 1.1: Kynning](01.1.kynning.md), [vídeó]()
 
@@ -17,14 +25,19 @@
 
 * [Minnsta HTML skjalið](daemi/minnsta.html)
 
+## Aukaefni
+
+* [Vefforritunar Slack](https://vefforritun.slack.com/)
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [Cyberduck](https://cyberduck.io/download/)
+
+## Verkefni vikunnar
+
+* [ ] Setja upp [Slack](https://slack.com)
+  - [ ] Skrá sig inn á [Vefforritunar Slackið](https://vefforritun.slack.com/), passa að þið séuð á `#vef1-2021-fyrirlestrar` og `#vef1-2021-verkefni` rásunum
+* [ ] [Skoða YouTube rás fyrir vefforritun](https://www.youtube.com/channel/UCPtLVvj-XXcHWEGLuFCrGMg)
+  - [ ] Ef þið viljið fá tilkynningu þegar fyrirlestrar eru settir inn er hægt að subscribea á rás
+
 ## Ítarefni
 
-* [URL—Living Standard](https://url.spec.whatwg.org/)
-* [„The Garden of Forking Paths”](http://www.coldbacon.com/writing/borges-garden.html)
-* [„As We May Think“](http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/?single_page=true)
-* [_Markdown_](https://daringfireball.net/projects/markdown/)
-* [_Coderush_](http://www.clickmovement.org/coderush)
-* [A List Apart](http://alistapart.com/)
-* [CSS Zen Garden](http://www.csszengarden.com/)
-* [Roadmap to becoming a web developer in 2020](https://github.com/kamranahmedse/developer-roadmap)
-* [Long Live the Web](http://www.scientificamerican.com/article.cfm?id=long-live-the-web)
+
