@@ -63,6 +63,7 @@ Verkefni eru sett fyrir í fyrirlestri á mánudegi og skal skila fyrir lok þri
 Öll skil fara fram á Canvas.
 
 * [Verkefni 1 (HTML #1)](https://github.com/vefforritun/vef1-2021-v1), sett fyrir 23. ágúst, skilist 3. september (lengd skil þar sem engin dæmatími í viku 1).
+  - [Kynning í fyrirlestri](https://youtu.be/8VHvlMpGEu4?t=2119)
 
 ### Hópverkefni
 
