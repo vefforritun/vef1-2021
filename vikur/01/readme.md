@@ -34,14 +34,14 @@
 ## Verkefni vikunnar
 
 * [ ] Setja upp [Slack](https://slack.com)
-  - [ ] Skrá sig inn á [Vefforritunar Slackið](https://vefforritun.slack.com/), passa að þið séuð á `#vef1-2021-fyrirlestrar` og `#vef1-2021-verkefni` rásunum
+  * [ ] Skrá sig inn á [Vefforritunar Slackið](https://vefforritun.slack.com/), passa að þið séuð á `#vef1-2021-fyrirlestrar` og `#vef1-2021-verkefni` rásunum
 * [ ] [Skoða YouTube rás fyrir vefforritun](https://www.youtube.com/channel/UCPtLVvj-XXcHWEGLuFCrGMg)
-  - [ ] Ef þið viljið fá tilkynningu þegar fyrirlestrar eru settir inn er hægt að subscribea á rás
+  * [ ] Ef þið viljið fá tilkynningu þegar fyrirlestrar eru settir inn er hægt að subscribea á rás
 * [ ] Setja upp [Visual Studio Code](https://code.visualstudio.com/) ritilinn
 * [ ] Setja upp [Cyberduck](https://cyberduck.io/download/) FTP client
 * [ ] Skoða [Mozilla Developer Network – MDN](https://developer.mozilla.org/), t.d. [Learn web development](https://developer.mozilla.org/en-US/docs/Learn)
 * [ ] [Skoða verkefni 1](https://github.com/vefforritun/vef1-2021-v1)
-  - [ ] Tengjast [heimasvæði hjá HÍ](https://uts.hi.is/node/155) með FTP client og setja inn prufuskrá
+  * [ ] Tengjast [heimasvæði hjá HÍ](https://uts.hi.is/node/155) með FTP client og setja inn prufuskrá
 
 ## Ítarefni
 

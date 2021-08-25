@@ -15,16 +15,16 @@
 ## Dæmi
 
 * Errors
-  - [catch](daemi/errors/catch.js)
-  - [errors](daemi/errors/errors.js)
-  - [finally](daemi/errors/finally.js)
-  - [strict](daemi/errors/strict.js)
-  - [throw](daemi/errors/throw.js)
+  * [catch](daemi/errors/catch.js)
+  * [errors](daemi/errors/errors.js)
+  * [finally](daemi/errors/finally.js)
+  * [strict](daemi/errors/strict.js)
+  * [throw](daemi/errors/throw.js)
 * Regex
-  - [examples](daemi/regex/examples.js)
-  - [replace](daemi/regex/replace.js)
+  * [examples](daemi/regex/examples.js)
+  * [replace](daemi/regex/replace.js)
 * Modules
-  - [calculator](daemi/modules/calculator.js)
-  - [modules](daemi/modules/modules.js)
-  - [no-modules](daemi/modules/no-modules.js)
+  * [calculator](daemi/modules/calculator.js)
+  * [modules](daemi/modules/modules.js)
+  * [no-modules](daemi/modules/no-modules.js)
 * [Sýnidæmi](daemi/synidaemi/)

@@ -44,7 +44,7 @@
 * [Pursuing Semantic Value](http://www.smashingmagazine.com/2011/11/pursuing-semantic-value/)
 * [&lt;input&gt; I ♡ you, but you're bringing me down](http://meowni.ca/posts/a-story-about-input/).
 * Aðgengi
-  *  [„a { outline: none; } Don't do it!“](http://outlinenone.com/)
+  * [„a { outline: none; } Don't do it!“](http://outlinenone.com/)
   * [10 guidelines to improve your web accessibility](https://aerolab.co/blog/web-accessibility/)
   * [How I Audit a Website for Accessibility](http://marcysutton.com/how-i-audit-a-website-for-accessibility/)
   * [Domino's Could Fuck Up the Internet for People With Disabilities Because They Won't Just Fix Their Website](https://gizmodo.com/dominos-could-fuck-up-the-internet-for-everyone-with-di-1836794767/amp)

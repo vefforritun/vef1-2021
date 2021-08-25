@@ -20,10 +20,10 @@
 
 * [form.html](daemi/form.html)
 * Ajax
-  - [cors](daemi/ajax/cors.html)
-  - [fetch.html](daemi/ajax/fetch.html)
-  - [fetch.js](daemi/ajax/fetch.js)
-  - [json](daemi/ajax/json.js)
-  - [xhr](daemi/ajax/xhr.html)
+  * [cors](daemi/ajax/cors.html)
+  * [fetch.html](daemi/ajax/fetch.html)
+  * [fetch.js](daemi/ajax/fetch.js)
+  * [json](daemi/ajax/json.js)
+  * [xhr](daemi/ajax/xhr.html)
 * [Tól](daemi/tools)
 * [Sýnidæmi](daemi/synidaemi)
