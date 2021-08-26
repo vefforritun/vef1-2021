@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable max-len */
 /* eslint-disable no-restricted-syntax */
+/* eslint-disable no-mixed-operators */
 
 // Úr https://eloquentjavascript.net/05_higher_order.html
 
@@ -1146,7 +1147,7 @@ function map(array, transform) {
   return mapped;
 }
 
-const rtlScripts = SCRIPTS.filter(s => s.direction === 'rtl');
+const rtlScripts = SCRIPTS.filter((s) => s.direction === 'rtl');
 // console.log(map(rtlScripts, s => s.name));
 
 // --- //
@@ -1192,7 +1193,7 @@ function countBy(items, groupName) {
   const counts = [];
   for (const item of items) {
     const name = groupName(item);
-    const known = counts.findIndex(c => c.name === name);
+    const known = counts.findIndex((c) => c.name === name);
     if (known === -1) {
       counts.push({ name, count: 1 });
     } else {

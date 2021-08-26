@@ -1,4 +1,3 @@
-
 module.exports = {
   rules: {
     // leyfum ónefnd föll í dæmum
@@ -14,7 +13,7 @@ module.exports = {
     'no-use-before-define': 0,
 
     // dæmi blanda quotes
-    'quotes': 0,
+    quotes: 0,
 
     // dæmi sýna concat með +
     'no-useless-concat': 0,
@@ -36,5 +35,5 @@ module.exports = {
 
     // parseInt með ekki decimal kerfi
     'prefer-numeric-literals': 0,
-  }
+  },
 };

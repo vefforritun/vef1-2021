@@ -13,7 +13,7 @@ const GAMES_TO_PLAY = 2;
  * Eftir leik er notanda boðið að spila annan leik, ef ekki hættir forrit.
  */
 function start() {
-  alert('Markmiðið er að svara eins mörgum af 10 dæmum rétt eins hratt og mögulegt er.');
+  alert('Svaraðu eins mörgum af 10 dæmum rétt eins hratt og mögulegt er.');
 
   do {
     play();
@@ -33,7 +33,7 @@ function start() {
  */
 function play() {
   let correct = 0;
-  const _start = new Date();
+  const startDate = new Date();
 
   for (let i = 0; i < GAMES_TO_PLAY; i++) {
     const result = ask();
@@ -49,10 +49,11 @@ function play() {
   }
 
   const end = new Date();
-  const elapsed = ((end - _start) / 1000).toFixed(2);
+  const elapsed = ((end - startDate) / 1000).toFixed(2);
   const avg = (correct / elapsed).toFixed(2);
 
-  const result = `Þú svaraðir ${correct} af ${GAMES_TO_PLAY} dæmum rétt á ${elapsed} sekúndum
+  const result = `Þú svaraðir ${correct} af ${GAMES_TO_PLAY} dæmum rétt.
+Tími var ${elapsed} sekúndur.
 Meðalrétt svör á sekúndu eru ${avg}`;
 
   alert(result);

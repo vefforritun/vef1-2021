@@ -22,6 +22,12 @@ const program = (() => {
   let input;
   let results;
 
+  function empty(element) {
+    while (element.firstChild) {
+      element.removeChild(element.firstChild);
+    }
+  }
+
   function showLoading() {
     empty(results);
 
@@ -38,12 +44,6 @@ const program = (() => {
   function showMessage(msg) {
     empty(results);
     results.appendChild(el('p', msg));
-  }
-
-  function empty(element) {
-    while (element.firstChild) {
-      element.removeChild(element.firstChild);
-    }
   }
 
   function showResults(searchResults) {
@@ -63,25 +63,23 @@ const program = (() => {
       email,
     }] = searchResults;
 
-    const element =
-      el('dl',
-        el('dt', 'Lén'),
-        el('dd', domain),
-        registrantname ? el('dt', 'Skráningaraðili') : null,
-        registrantname ? el('dd', registrantname) : null,
-        el('dt', 'Skráð'),
-        el('dd', registered),
-        el('dt', 'Seinast breytt'),
-        el('dd', lastChange),
-        el('dt', 'Rennur út'),
-        el('dd', expires),
-        email ? el('dt', 'Netfang') : null,
-        email ? el('dd', email) : null,
-        address ? el('dt', 'Heimilisfang') : null,
-        address ? el('dd', address) : null,
-        country ? el('dt', 'Land') : null,
-        country ? el('dd', country) : null,
-      );
+    const element = el('dl',
+      el('dt', 'Lén'),
+      el('dd', domain),
+      registrantname ? el('dt', 'Skráningaraðili') : null,
+      registrantname ? el('dd', registrantname) : null,
+      el('dt', 'Skráð'),
+      el('dd', registered),
+      el('dt', 'Seinast breytt'),
+      el('dd', lastChange),
+      el('dt', 'Rennur út'),
+      el('dd', expires),
+      email ? el('dt', 'Netfang') : null,
+      email ? el('dd', email) : null,
+      address ? el('dt', 'Heimilisfang') : null,
+      address ? el('dd', address) : null,
+      country ? el('dt', 'Land') : null,
+      country ? el('dd', country) : null);
 
     empty(results);
 
@@ -105,13 +103,13 @@ const program = (() => {
       .catch((error) => {
         console.error('Villa', error);
         showMessage('Villa við að sækja gögn');
-      })
+      });
   }
 
   function onSubmit(e) {
     e.preventDefault();
 
-    const value = input.value;
+    const { value } = input;
 
     // TODO höndla tómstreng
 

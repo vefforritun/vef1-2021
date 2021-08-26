@@ -9,7 +9,6 @@ setTimeout(() => {
   }, 3000);
 }, 5000);
 
-
 function snooze(s, msg, callback) {
   setTimeout(() => {
     alert(msg);

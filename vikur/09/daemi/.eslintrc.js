@@ -1,4 +1,3 @@
-
 module.exports = {
   rules: {
     // leyfum for of
@@ -6,5 +5,5 @@ module.exports = {
 
     // helper.html dæmi
     'function-paren-newline': 0,
-  }
+  },
 };

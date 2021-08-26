@@ -1,5 +1,4 @@
-
-const multiply = x => x * 2;
+const multiply = (x) => x * 2;
 console.log(multiply(10)); // 20
 
 const addition = (x, y) => {

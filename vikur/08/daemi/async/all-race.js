@@ -11,20 +11,19 @@ const snoozefestAll = Promise.all([
   snooze(3, 'Vakna núna!'),
   snooze(1, 'VAKNA!!!'),
 ])
-  .then(result => console.log(result));
+  .then((result) => console.log(result));
 
 console.log(snoozefestAll);
 // Promise {<pending>}
 // 5s seinna..
 // ["Vakna", "Vakna núna!", "VAKNA!!!"]
 
-
 Promise.race([
   snooze(5, 'Vakna'),
   snooze(3, 'Vakna núna!'),
   snooze(1, 'VAKNA!!!'),
 ])
-  .then(result => console.log(result));
+  .then((result) => console.log(result));
 
 // 1s seinna..
 // "VAKNA!!!"

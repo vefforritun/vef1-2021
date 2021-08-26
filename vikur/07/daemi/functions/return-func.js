@@ -1,5 +1,5 @@
 function greeter(greeting) {
-  return name => `${greeting} ${name}`;
+  return (name) => `${greeting} ${name}`;
 }
 
 // útbúum tvö föll sem heilsa með "hello" og "hi"

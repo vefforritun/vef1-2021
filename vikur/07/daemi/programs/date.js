@@ -1,4 +1,3 @@
-
 const a = new Date(); // Núna
 
 const b = new Date(2020, 0, 1, 0, 0, 0);

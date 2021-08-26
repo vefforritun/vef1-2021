@@ -21,7 +21,6 @@ console.log(sum(...list)); // 6
 // sama og að hafa gert
 console.log(sum(1, 2, 3));
 
-
 // getum gert í bland við önnur argument
 console.log(avg(1, ...list, 10)); // 3.4
 

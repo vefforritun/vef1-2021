@@ -1,4 +1,3 @@
-
 module.exports = {
   rules: {
     // leyfum for of
@@ -9,5 +8,5 @@ module.exports = {
 
     // array dæmi notar bracket notation viljandi
     'dot-notation': 0,
-  }
+  },
 };

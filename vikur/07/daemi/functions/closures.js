@@ -1,7 +1,11 @@
 function makeAdder(x) {
   // þetta fall hefur alltaf aðgang að x
-  return y => x + y;
+  return (y) => x + y;
 }
+
+const add5 = makeAdder(5);
+
+console.log(add5(1)); // 6
 
 function outer(a) {
   const x = 1;
@@ -15,4 +19,5 @@ function outer(a) {
   }
   return inner(a);
 }
-outer(10); // 16
+
+console.log(outer(10)); // 16

@@ -7,5 +7,5 @@ fetch(url)
     }
     return result.json();
   })
-  .then(data => console.log(data))
-  .catch(error => console.error(error));
+  .then((data) => console.log(data))
+  .catch((error) => console.error(error));

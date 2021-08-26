@@ -4,6 +4,12 @@ module.exports = {
     'markdown',
     'html',
   ],
+  overrides: [
+    {
+        files: ["**/*.md"],
+        processor: "markdown/markdown"
+    },
+  ],
   env: {
     browser: true
   },

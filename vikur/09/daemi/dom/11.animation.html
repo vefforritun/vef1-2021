@@ -30,7 +30,7 @@
 
         cat.style.transform = `translateY(${(Math.sin(angle) * 20)}px)
                                translateX(${(Math.cos(angle) * 200)}px)`;
-        requestAnimationFrame(newTime => animate(newTime, time));
+        requestAnimationFrame((newTime) => animate(newTime, time));
       }
       requestAnimationFrame(animate);
     </script>

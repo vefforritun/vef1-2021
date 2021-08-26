@@ -8,7 +8,7 @@ function getResult() {
 
 const result = getResult();
 try {
-  const s = result.s;
+  const { s } = result;
   console.log(s.substr(1));
 } catch (e) {
   console.log('Greip villu');

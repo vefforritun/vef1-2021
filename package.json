@@ -6,7 +6,7 @@
   "scripts": {
     "present": "reveal-md ./vikur/ -w --disable-auto-open",
     "eslint-js": "eslint vikur/**/*.js",
-    "eslint-markdown": "eslint --ext md .",
+    "eslint-markdown": "eslint vikur/**/*.md",
     "eslint-html": "eslint --ext html .",
     "eslint": "npm run eslint-js -s && npm run eslint-markdown -s && npm run eslint-html -s",
     "markdownlint": "markdownlint vikur/**/*.md",
@@ -19,11 +19,11 @@
     "reveal-md": "^4.1.2"
   },
   "devDependencies": {
-    "eslint": "^5.8.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-html": "^4.0.6",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-markdown": "^1.0.0-rc.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-html": "^6.1.2",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-markdown": "^2.2.0",
     "markdownlint-cli": "^0.28.1"
   }
 }

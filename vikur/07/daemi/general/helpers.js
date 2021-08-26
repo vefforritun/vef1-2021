@@ -1,4 +1,3 @@
-
 console.log(isNaN(1)); // false
 
 console.log(isNaN('a')); // true

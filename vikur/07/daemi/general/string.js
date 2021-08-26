@@ -1,4 +1,3 @@
-
 console.log('Halló, heimur!'); // Halló, heimur!
 
 console.log("Halló, heimur!"); // Halló, heimur!

@@ -7,12 +7,12 @@ function futureMessage(msg) {
 }
 
 futureMessage('Hi!')
-  .then(msg => console.log(msg));
+  .then((msg) => console.log(msg));
 // "Hi! from the future!" eftir 2 sek
 
 futureMessage('foo')
-  .then(msg => console.log(msg))
-  .catch(e => console.log(e));
+  .then((msg) => console.log(msg))
+  .catch((e) => console.log(e));
 // "No foo allowed!" strax
 
 const p = futureMessage('hmm');
@@ -20,7 +20,7 @@ const p = futureMessage('hmm');
 function foo(promise) {
   console.log(promise);
 
-  promise.then(msg => console.log(msg));
+  promise.then((msg) => console.log(msg));
 
   return 'Handling promise...';
 }

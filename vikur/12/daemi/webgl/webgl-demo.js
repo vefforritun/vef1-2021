@@ -1,4 +1,5 @@
-/* eslint-disable max-len */
+/* eslint-disable */
+
 /**
  * Dæmi frá https://mdn.github.io/webgl-examples/tutorial/sample5/
  */

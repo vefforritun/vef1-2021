@@ -1,4 +1,3 @@
-
 module.exports = {
   rules: {
     // leyfum for of
@@ -15,5 +14,5 @@ module.exports = {
 
     // leyfa ++
     'no-plusplus': 0,
-  }
+  },
 };

@@ -1,4 +1,3 @@
-
 const num = Number(prompt('Veldu tölu'));
 if (!Number.isNaN(num)) {
   console.log(`Talan þín er kvaðratrótin af ${num * num}`);

@@ -1,4 +1,3 @@
-
 function foo(x, y, ...rest) {
   return x + y + rest.length;
 }
