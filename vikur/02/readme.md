@@ -42,7 +42,7 @@
 * [Google um merkingarfræði](https://support.google.com/webmasters/answer/176035?hl=en)
 * [Our Pointless Pursuit Of Semantic Value](http://www.smashingmagazine.com/2011/11/11/our-pointless-pursuit-of-semantic-value/)
 * [Pursuing Semantic Value](http://www.smashingmagazine.com/2011/11/pursuing-semantic-value/)
-* [&lt;input&gt; I ♡ you, but you're bringing me down](http://meowni.ca/posts/a-story-about-input/).
+* [<input&gt; I ♡ you, but you're bringing me down](http://meowni.ca/posts/a-story-about-input/).
 * Aðgengi
   * [„a { outline: none; } Don't do it!“](http://outlinenone.com/)
   * [10 guidelines to improve your web accessibility](https://aerolab.co/blog/web-accessibility/)
