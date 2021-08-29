@@ -63,7 +63,6 @@
 ## Aukaefni
 
 * [HTML spec](https://html.spec.whatwg.org/)
-* [Greinar frá Birki ]
 * [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/)
 * [WebAIM: Creating Accessible Tables](http://webaim.org/techniques/tables/)
 * [VoiceOver](https://webaim.org/articles/voiceover/) fyrir iOS, macOS, eða tvOS
