@@ -1,6 +1,6 @@
 # Vika 2, 30. ágúst–5. september 2021
 
-## Leseni
+## Lesefni
 
 * [Bókin um vefforritun](https://bok.vefforritun.is/)
   * [Kafli 4: HTML Element](https://bok.vefforritun.is/04.element.html)
@@ -65,6 +65,7 @@
 * [HTML spec](https://html.spec.whatwg.org/)
 * [Greinar frá Birki ]
 * [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/)
+* [WebAIM: Creating Accessible Tables](http://webaim.org/techniques/tables/)
 * [VoiceOver](https://webaim.org/articles/voiceover/) fyrir iOS, macOS, eða tvOS
 * [TalkBack](https://support.google.com/accessibility/android/answer/6283677?hl=en) á Android
 * [NVDA Screen Reader](http://www.nvaccess.org/), ókeypis, open source skjálesari fyrir Windows
@@ -94,6 +95,7 @@
 * [<input> I ♡ you, but you're bringing me down](http://meowni.ca/posts/a-story-about-input/).
 * [The Open Graph protocol](https://ogp.me/)
 * [Twitter: Cards Markup](https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup)
+* [Facebook: A Guide to Sharing for Webmasters](https://developers.facebook.com/docs/sharing/webmasters)
 
 ### Aðgengi
 
