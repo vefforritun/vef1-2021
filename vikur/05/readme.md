@@ -14,7 +14,7 @@
 
 ## Dæmi
 
-[Skoða dæmi á vef](https://vefforritun.github.io/vef1-2021/fyrirlestrar/05/)
+[Skoða dæmi á vef](https://vefforritun.github.io/vef1-2021/vikur/05/)
 
 * Skalanleg vefhönnun
   * [Grid](daemi/rwd/grid.html)

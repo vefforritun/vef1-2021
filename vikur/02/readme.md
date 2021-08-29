@@ -22,7 +22,7 @@
 
 ## Dæmi
 
-[Skoða dæmi á vef](https://vefforritun.github.io/vef1-2021/fyrirlestrar/02/)
+[Skoða dæmi á vef](https://vefforritun.github.io/vef1-2021/vikur/02/)
 
 ### HTML Element
 

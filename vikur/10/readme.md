@@ -16,7 +16,7 @@
 
 ## Dæmi
 
-[Skoða „lifandi“ dæmi](https://vefforritun.github.io/vef1-2021/fyrirlestrar/10/)
+[Skoða „lifandi“ dæmi](https://vefforritun.github.io/vef1-2021/vikur/10/)
 
 * [form.html](daemi/form.html)
 * Ajax

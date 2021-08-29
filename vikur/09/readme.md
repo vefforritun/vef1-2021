@@ -14,7 +14,7 @@
 
 ## Dæmi
 
-[Skoða „lifandi“ dæmi](https://vefforritun.github.io/vef1-2021/fyrirlestrar/09/)
+[Skoða „lifandi“ dæmi](https://vefforritun.github.io/vef1-2021/vikur/09/)
 
 * DOM
   * [travel](daemi/dom/01.travel.html)
