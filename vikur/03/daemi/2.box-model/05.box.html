@@ -3,6 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>Box model</title>
+    <!--
+      Þetta dæmi skilgreinir CSS „inline“ til hægðarauka. Betra væri að vísa í
+      CSS skjal með <link rel="stylesheet" href="skjal.css">
+    -->
     <style>
     html, body {
       font-size: 15px;
@@ -22,17 +26,19 @@
       background: #fff;
       width: 100%; /* = 200px þar sem parent er 200px */
 
-      /* þetta mun valda því að efni fer út fyrir box í minni skjám
-         getum stjórnað hegðun þess með overflow
+      /*
+      þetta mun valda því að efni fer út fyrir box í minni skjám
+      getum stjórnað hegðun þess með overflow
       */
       height: 100px;
 
       padding: 20px 30px;
       border: 2px solid #000;
 
-      /* heildarstærð á boxi er þá:
-          width: 200px + 2*30px + 2*2px = 264px
-          height: 100px + 2*20px + 2*2px = 144px
+      /*
+      heildarstærð á boxi er þá:
+        width: 200px + 2*30px + 2*2px = 264px
+        height: 100px + 2*20px + 2*2px = 144px
       */
     }
 

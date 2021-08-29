@@ -3,30 +3,53 @@
   <head>
     <meta charset="utf-8">
     <title>Selectors</title>
+    <!--
+      Þetta dæmi skilgreinir CSS „inline“ til hægðarauka. Betra væri að vísa í
+      CSS skjal með <link rel="stylesheet" href="skjal.css">
+    -->
     <style>
     /* grunn stærð fyrir em er 20px */
-    html { font-size: 20px; }
+    html {
+      font-size: 20px;
+    }
 
     /* svartur 1px breiður border */
-    div { border: 1px solid #000; }
+    div {
+      border: 1px solid #000;
+    }
 
     /* látum öll em vera með rauðan texta */
-    em { color: #f00; }
+    em {
+      color: #f00;
+    }
 
     /* en ef þau eru beint undir div er það blátt */
-    div > em { color: #00f; }
+    div > em {
+      color: #00f;
+    }
 
     /* div sem er systkini div fær 20px margin fyrir ofan sig */
-    div + div { margin-top: 1em; background-color: pink; }
+    div + div {
+      margin-top: 1em;
+      background-color: pink;
+    }
 
     /* fyrsti stafur undir div.text verður 10px*2=20px */
-    div.text:first-letter { font-size: 2em; }
+    div.text:first-letter {
+      font-size: 2em;
+    }
 
-    [lang="is"] { color: green; }
+    [lang="is"] {
+      color: green;
+    }
 
-    [lang="is"]::after { content: ' (is)'; }
+    [lang="is"]::after {
+      content: ' (is)';
+    }
 
-    span:hover { background-color: #0f0; }
+    span:hover {
+      background-color: #0f0;
+    }
     </style>
   </head>
 

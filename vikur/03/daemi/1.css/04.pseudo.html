@@ -3,8 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>Pseudo</title>
+    <!--
+      Þetta dæmi skilgreinir CSS „inline“ til hægðarauka. Betra væri að vísa í
+      CSS skjal með <link rel="stylesheet" href="skjal.css">
+    -->
     <style>
-
     /* gervi-klasar */
     a {
       font-weight: bold;
@@ -41,7 +44,8 @@
       background: green;
     }
 
-    /* gervi-element
+    /**
+    * gervi-element
     * `::before/::after` – element sem er fyrir framan/aftan það sem skilgreint er
     * `::first-letter` – fyrsti stafur elements
     * `::first-line` – fyrsta lína elements
@@ -58,7 +62,7 @@
     }
 
     div::first-line {
-      background: lightblue;
+      background-color: lightblue;
     }
 
     div::first-letter {
