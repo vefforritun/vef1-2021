@@ -11,11 +11,11 @@
 
 ## Fyrirlestrar
 
-[Fyrirlestur 1.1: Kynning](01.1.kynning.md), [vídeó](https://youtu.be/zfIv5b-8AvE)
+[Fyrirlestur 1.1: Kynning](01.1.kynning.md), [vídeó (35:17)](https://youtu.be/zfIv5b-8AvE)
 
-[Fyrirlestur 1.2: Inngangur](01.2.inngangur.md), [vídeó](https://youtu.be/Pf5RPyJq06U)
+[Fyrirlestur 1.2: Inngangur](01.2.inngangur.md), [vídeó (45:43)](https://youtu.be/Pf5RPyJq06U)
 
-[Fyrirlestur 1.3: HTML](01.3.html.md), [vídeó](https://youtu.be/8VHvlMpGEu4)
+[Fyrirlestur 1.3: HTML](01.3.html.md), [vídeó (38:32)](https://youtu.be/8VHvlMpGEu4)
 
 ## Dæmi
 

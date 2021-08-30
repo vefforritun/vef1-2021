@@ -11,8 +11,8 @@ Hér má nálgast alla fyrirlestra, dæmi og verkefni í áfangagnum vefforritun
 |  3   |  6. september | CSS, syntax, specificity og cascade, box model, Visual formatting | CSS #1                | HTML #2              |
 |  4   | 13. september | Letur & litir, variables, flexbox,                                | CSS #2                | CSS #1               |
 |  5   | 20. september | Skalanlegir vefir, kvikun, hönnun.                                | CSS #3, Hópverkefni 1 | CSS #2               |
-|  6   | 27. september | Grid, CSS í stærri verkefnum, node.js & npm, Sass og stylelint    | CSS #4                | CSS #3               |
-|  7   |  4. október   | Git, GitHub                                                       |                       | CSS #4               |
+|  6   | 27. september | Grid; Git, GitHub                                                 | CSS #4                | CSS #3               |
+|  7   |  4. október   | CSS í stærri verkefnum, node.js & npm, Sass og stylelint          |                       | CSS #4               |
 |  8   | 11. október   | JavaScript, breytur, gagnatög, stýriskipanir, föll                | JS #1                 |                      |
 |  9   | 18. október   | Fylki&hlutir. Villumeðhöndlun, reglulegar segðir, einingar        | JS #2                 | JS #1, Hópverkefni 1 |
 |  10  | 25. október   | Forritun á vef, DOM og atburðir, ósamstillt forritun              | JS #3, Hópverkefni 2  | JS #2                |
@@ -67,7 +67,7 @@ Verkefni eru sett fyrir í fyrirlestri á mánudegi og skal skila fyrir lok þri
 * [Verkefni 1 (HTML #1)](https://github.com/vefforritun/vef1-2021-v1), sett fyrir 23. ágúst, skilist 3. september (lengd skil þar sem engin dæmatími í viku 1).
   * [Kynning í fyrirlestri](https://youtu.be/8VHvlMpGEu4?t=2119)
 * [Verkefni 2 (HTML #2)](https://github.com/vefforritun/vef1-2021-v2), sett fyrir 30. ágúst, skilist 7. september.
-  * [Kynning í fyrirlestri](https://youtu.be/)
+  * [Kynning í fyrirlestri](https://youtu.be/qyQ5S3cry1E)
 
 ### Hópverkefni
 
