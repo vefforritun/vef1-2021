@@ -14,7 +14,7 @@
 
 [Fyrirlestur 2.1: HTML element](02.1.html-element.md), [vídeó (42:47)](https://youtu.be/GsPmJSvEfRU)
 
-[Fyrirlestur 2.2: Töflur, listar, og form](02.3.toflur-listar-form.md), [vídeó (23:04)](https://youtu.be/EIbkxBf7VAo)
+[Fyrirlestur 2.2: Töflur, listar, og form](02.2.toflur-listar-form.md), [vídeó (23:04)](https://youtu.be/EIbkxBf7VAo)
 
 [Fyrirlestur 2.3: Að skrifa HTML](02.3.ad-skrifa-html.md), [vídeó (18:35)](https://youtu.be/PQADk732nVE)
 
