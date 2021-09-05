@@ -6,11 +6,11 @@ Hér má nálgast alla fyrirlestra, dæmi og verkefni í áfangagnum vefforritun
 
 | Vika | Mánudagur     | Viðfangsefni                                                      | Verkefni              | Skil                 |
 |------|---------------|-------------------------------------------------------------------|-----------------------|----------------------|
-|  1   | 23. ágúst     | Kynning, vefurinn og vefforritun, HTML                            | HTML #1               |                      |
+|  1   | 23. ágúst     | Kynning; vefurinn og vefforritun; HTML                            | HTML #1               |                      |
 |  2   | 30. ágúst     | Element; töflur, listar, og form; að skrifa HTML; aðgengi og SEO  | HTML #2               | HTML #1              |
-|  3   |  6. september | CSS, syntax, specificity og cascade, box model, Visual formatting | CSS #1                | HTML #2              |
-|  4   | 13. september | Letur & litir, variables, flexbox,                                | CSS #2                | CSS #1               |
-|  5   | 20. september | Skalanlegir vefir, kvikun, hönnun.                                | CSS #3, Hópverkefni 1 | CSS #2               |
+|  3   |  6. september | CSS; box model; specificity og cascade; visual formatting         | CSS #1                | HTML #2              |
+|  4   | 13. september | Letur & litir, CSS virkni & stuðningur, flexbox                   | CSS #2                | CSS #1               |
+|  5   | 20. september | Skalanlegir vefir, kvikun, hönnun                                 | CSS #3, Hópverkefni 1 | CSS #2               |
 |  6   | 27. september | Grid; Git, GitHub                                                 | CSS #4                | CSS #3               |
 |  7   |  4. október   | CSS í stærri verkefnum, node.js & npm, Sass og stylelint          |                       | CSS #4               |
 |  8   | 11. október   | JavaScript, breytur, gagnatög, stýriskipanir, föll                | JS #1                 |                      |
@@ -54,11 +54,11 @@ Fyrirlestrar eru haldnir 15:00-17:20 á mánudögum. Upptökur af öllum fyrirle
 ### Vikur
 
 * [Vika 1, 23.–29. ágúst 2021](vikur/01/)
-  * Kynning, inngangur, HTML
+  * Kynning; vefurinn og vefforritun; HTML
 * [Vika 2, 30. ágúst–5. september 2021](vikur/02/)
   * Element; töflur, listar, og form; að skrifa HTML; aðgengi og SEO
 * [Vika 3, 6.–12. september 2021](vikur/03/)
-  * CSS, syntax, specificity og cascade, box model, Visual formatting
+  * CSS; box model; specificity og cascade; visual formatting
 
 ## Verkefni
 

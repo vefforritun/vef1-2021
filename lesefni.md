@@ -34,9 +34,9 @@
   * [Resilient Web Design, chapter 2: Materials](https://resilientwebdesign.com/chapter2/)
 * Vika #4
   * [Bókin um vefforritun](https://bok.vefforritun.is/)
-    * [Kafli 15: Letur & litir](https://bok.vefforritun.is/12.css-letur-litir.html)
-    * [Kafli 16: CSS stuðningur](https://bok.vefforritun.is/13.css-studningur.html)
-    * [Kafli 17: Flexbox](https://bok.vefforritun.is/14.css-flexbox.html)
+    * [Kafli 15: Letur & litir](https://bok.vefforritun.is/15.css-letur-litir.html)
+    * [Kafli 16: CSS stuðningur](https://bok.vefforritun.is/16.css-studningur.html)
+    * [Kafli 17: Flexbox](https://bok.vefforritun.is/17.css-flexbox.html)
 * Vika #5
   * [Bókin um vefforritun](https://bok.vefforritun.is/)
     * [Kafli 18: Skalanlegir vefir](https://bok.vefforritun.is/18.skalanlegir.html)
@@ -45,7 +45,7 @@
   * [Resilient Web Design, chapter 3: Visions](https://resilientwebdesign.com/chapter3/)
 * Vika #6
   * [Bókin um vefforritun](https://bok.vefforritun.is/)
-    * [Kafli 21: Grid](https://bok.vefforritun.is/212.grid.html)
+    * [Kafli 21: Grid](https://bok.vefforritun.is/21.grid.html)
     * [Kafli 22: CSS í stærri verkefnum](https://bok.vefforritun.is/22.css-verkefni.html)
 * Vika #7
   * [Bókin um vefforritun](https://bok.vefforritun.is/)
