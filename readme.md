@@ -57,6 +57,8 @@ Fyrirlestrar eru haldnir 15:00-17:20 á mánudögum. Upptökur af öllum fyrirle
   * Kynning, inngangur, HTML
 * [Vika 2, 30. ágúst–5. september 2021](vikur/02/)
   * Element; töflur, listar, og form; að skrifa HTML; aðgengi og SEO
+* [Vika 3, 6.–12. september 2021](vikur/03/)
+  * CSS, syntax, specificity og cascade, box model, Visual formatting
 
 ## Verkefni
 
@@ -68,6 +70,8 @@ Verkefni eru sett fyrir í fyrirlestri á mánudegi og skal skila fyrir lok þri
   * [Kynning í fyrirlestri](https://youtu.be/8VHvlMpGEu4?t=2119)
 * [Verkefni 2 (HTML #2)](https://github.com/vefforritun/vef1-2021-v2), sett fyrir 30. ágúst, skilist 7. september.
   * [Kynning í fyrirlestri](https://youtu.be/qyQ5S3cry1E)
+* [Verkefni 3 (CSS #1)](https://github.com/vefforritun/vef1-2021-v3), sett fyrir 6. september, skilist 14. september.
+  * [Kynning í fyrirlestri](https://youtu.be/)
 
 ### Hópverkefni
 

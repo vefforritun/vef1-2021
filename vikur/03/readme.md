@@ -1,7 +1,5 @@
 # Vika 3, 6.–12. september 2021
 
-**Þessi vikuáætlun er í vinnslu**
-
 ## Lesefni
 
 * [Bókin um vefforritun](https://bok.vefforritun.is/)
@@ -15,13 +13,13 @@
 
 ## Fyrirlestrar
 
-[Fyrirlestur 3.1: CSS](03.1.css.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 3.1: CSS](03.1.css.md), [vídeó (xx:yy)](https://youtu.be/)
 
-[Fyrirlestur 3.2: Box model](03.2.box-model.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 3.2: Box model](03.2.box-model.md), [vídeó (xx:yy)](https://youtu.be/)
 
-[Fyrirlestur 3.3: Cascade](03.3.cascade.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 3.3: Cascade](03.3.cascade.md), [vídeó (xx:yy)](https://youtu.be/)
 
-[Fyrirlestur 3.4: Visual Formatting módel](03.4.visual-formatting.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 3.4: Visual Formatting módel](03.4.visual-formatting.md), [vídeó (xx:yy)](https://youtu.be/)
 
 ## Dæmi
 
@@ -75,16 +73,22 @@
 * [Smashing Magazine: How To Learn CSS eftir Rachel Andrew](https://www.smashingmagazine.com/2019/01/how-to-learn-css/)
 * [Firefox Developer Tools](https://developer.mozilla.org/en-US/docs/Tools)
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+* [MDN: Cascade and inheritance](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance)
+* [MDN: Box model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
 
 ## Verkefni vikunnar
 
 * [ ] Opna og skoða [CSS2.1 spec](http://www.w3.org/TR/CSS2/)
+* Fara yfir á MDN:
+  * [ ] [Cascade and inheritance](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance)
+  * [ ] [Box model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
 * [ ] Fara yfir dæmi og fikta í þeim með _devtools_ (fyrir [Firefox](https://developer.mozilla.org/en-US/docs/Tools), [Chrome](https://developer.chrome.com/docs/devtools/), leitaðu að fyrir þinn vafra ef annar), sérstaklega:
   * [ ] [Dæmi um letur-hlutfallslegar einingar](daemi/1.css/06.em.html)
   * [ ] [Dæmi um gildi](daemi/3.cascade/01.values.html)
   * [ ] [Dæmi um `display`](daemi/4.visual-formatting/01.display.html)
   * [ ] [Dæmi um staðsetningar #2](daemi/4.visual-formatting/05.position2.html)
 * [ ] Nota [CSS validation þjónustu W3C](https://jigsaw.w3.org/css-validator/)
+* Athuga og fletta upp eigindum á MDN þegar þið notið í fyrsta skipti
 * [ ] Skila [verkefni 2](https://github.com/vefforritun/vef1-2021-v2)
 * [ ] Byrja á [verkefni 3](https://github.com/vefforritun/vef1-2021-v3)
 
@@ -97,5 +101,47 @@
 * [Box módelið](https://www.w3.org/TR/CSS2/box.html)
 * [The Rules of Margin Collapse](https://www.joshwcomeau.com/css/rules-of-margin-collapse/)
 * [The CSS Mindset](https://mxb.dev/blog/the-css-mindset/)
-* [MDN: Cascade and inheritance](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance)
 * [Inherit, initial, unset, revert](https://www.quirksmode.org/blog/archives/2021/06/inherit_initial.html)
+
+### MDN ítarefni
+
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
+* [Type selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors)
+* [Universal selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors)
+* [Attribute selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
+* [Class selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors)
+* [ID selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors)
+* [Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
+* [Descendant combinator](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators#descendant_combinator)
+* [Child combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator)
+* [Adjacent sibling combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator)
+* [General sibling combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_combinator)
+* [`at` rule](https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule)
+* [Pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
+* [:not()](https://developer.mozilla.org/en-US/docs/Web/CSS/:not)
+* [Values and Units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
+* [Color value](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)
+
+#### MDN: Box model
+
+* [Margin](https://developer.mozilla.org/en-US/docs/Web/CSS/margin)
+* [Border](https://developer.mozilla.org/en-US/docs/Web/CSS/border)
+* [Padding](https://developer.mozilla.org/en-US/docs/Web/CSS/padding)
+* [`width`](https://developer.mozilla.org/en-US/docs/Web/CSS/width)
+* [`height`](https://developer.mozilla.org/en-US/docs/Web/CSS/height)
+* [`box-sizing`](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing)
+
+#### MDN: Cascade
+
+* [Specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity)
+* [Cascade](https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade)
+
+#### MDN: Visual formatting model
+
+* [Normal flow](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flow_Layout/Block_and_Inline_Layout_in_Normal_Flow)
+* [`display`](https://developer.mozilla.org/en-US/docs/Web/CSS/display)
+* [`overflow`](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow)
+* [`position`](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
+* [Containing block](https://developer.mozilla.org/en-US/docs/Web/CSS/Containing_block)
+* [`z-index`](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index)
