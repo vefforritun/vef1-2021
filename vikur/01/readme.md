@@ -53,4 +53,4 @@
 * [Coderush: heimildarmynd um tilurð Mozilla](http://www.clickmovement.org/coderush)
 * [A List Apart](http://alistapart.com/)
 * [CSS Zen Garden](http://www.csszengarden.com/)
-* [Long Live the Web](http://www.scientificamerican.com/article.cfm?id=long-live-the-web)
+* [Long Live the Web](https://www.scientificamerican.com/article/long-live-the-web/)

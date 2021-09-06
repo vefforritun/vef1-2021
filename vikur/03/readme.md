@@ -13,13 +13,13 @@
 
 ## Fyrirlestrar
 
-[Fyrirlestur 3.1: CSS](03.1.css.md), [vídeó (xx:yy)](https://youtu.be/)
+[Fyrirlestur 3.1: CSS](03.1.css.md), [vídeó (xx:yy)](https://youtu.be/h_LwvTnc3lg)
 
-[Fyrirlestur 3.2: Box model](03.2.box-model.md), [vídeó (xx:yy)](https://youtu.be/)
+[Fyrirlestur 3.2: Box model](03.2.box-model.md), [vídeó (21:22)](https://youtu.be/L88XCwXuu5g)
 
-[Fyrirlestur 3.3: Cascade](03.3.cascade.md), [vídeó (xx:yy)](https://youtu.be/)
+[Fyrirlestur 3.3: Cascade](03.3.cascade.md), [vídeó (19:49)](https://youtu.be/47vOtXjwnI8)
 
-[Fyrirlestur 3.4: Visual Formatting módel](03.4.visual-formatting.md), [vídeó (xx:yy)](https://youtu.be/)
+[Fyrirlestur 3.4: Visual Formatting módel](03.4.visual-formatting.md), [vídeó (28:54)](https://youtu.be/)
 
 ## Dæmi
 

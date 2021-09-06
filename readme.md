@@ -9,13 +9,13 @@ Hér má nálgast alla fyrirlestra, dæmi og verkefni í áfangagnum vefforritun
 |  1   | 23. ágúst     | Kynning; vefurinn og vefforritun; HTML                            | HTML #1               |                      |
 |  2   | 30. ágúst     | Element; töflur, listar, og form; að skrifa HTML; aðgengi og SEO  | HTML #2               | HTML #1              |
 |  3   |  6. september | CSS; box model; specificity og cascade; visual formatting         | CSS #1                | HTML #2              |
-|  4   | 13. september | Letur & litir, CSS virkni & stuðningur, flexbox                   | CSS #2                | CSS #1               |
-|  5   | 20. september | Skalanlegir vefir, kvikun, hönnun                                 | CSS #3, Hópverkefni 1 | CSS #2               |
-|  6   | 27. september | Grid; Git, GitHub                                                 | CSS #4                | CSS #3               |
-|  7   |  4. október   | CSS í stærri verkefnum, node.js & npm, Sass og stylelint          |                       | CSS #4               |
+|  4   | 13. september | Letur & litir; CSS virkni & stuðningur; flexbox                   | CSS #2                | CSS #1               |
+|  5   | 20. september | Skalanlegir vefir; kvikun; hönnun                                 | CSS #3                | CSS #2               |
+|  6   | 27. september | Grid; Git, GitHub                                                 | CSS #4, Hópverkefni 1 | CSS #3               |
+|  7   |  4. október   | CSS í stærri verkefnum; node.js & npm; Sass og stylelint          |                       | CSS #4               |
 |  8   | 11. október   | JavaScript, breytur, gagnatög, stýriskipanir, föll                | JS #1                 |                      |
-|  9   | 18. október   | Fylki&hlutir. Villumeðhöndlun, reglulegar segðir, einingar        | JS #2                 | JS #1, Hópverkefni 1 |
-|  10  | 25. október   | Forritun á vef, DOM og atburðir, ósamstillt forritun              | JS #3, Hópverkefni 2  | JS #2                |
+|  9   | 18. október   | Fylki&hlutir. Villumeðhöndlun, reglulegar segðir, einingar        | JS #2                 | JS #1                |
+|  10  | 25. október   | Forritun á vef, DOM og atburðir, ósamstillt forritun              | JS #3, Hópverkefni 2  | JS #2, Hópverkefni 1 |
 |  11  |  1. nóvember  | HTTP og form, Ajax, eslint, unobtrusive JavaScript                | JS #4                 | JS #3                |
 |  12  |  8. nóvember  | Hlutir, fallaforritun, HTML5 og JS, tæki og tól                   |                       | JS #4                |
 |  13  | 15. nóvember  | Buffer                                                            |                       |                      |
@@ -59,6 +59,8 @@ Fyrirlestrar eru haldnir 15:00-17:20 á mánudögum. Upptökur af öllum fyrirle
   * Element; töflur, listar, og form; að skrifa HTML; aðgengi og SEO
 * [Vika 3, 6.–12. september 2021](vikur/03/)
   * CSS; box model; specificity og cascade; visual formatting
+* [Vika 4, 13.–19. september 2021](vikur/04/)
+  * Letur & litir; CSS virkni & stuðningur; Flexbox
 
 ## Verkefni
 
@@ -71,11 +73,11 @@ Verkefni eru sett fyrir í fyrirlestri á mánudegi og skal skila fyrir lok þri
 * [Verkefni 2 (HTML #2)](https://github.com/vefforritun/vef1-2021-v2), sett fyrir 30. ágúst, skilist 7. september.
   * [Kynning í fyrirlestri](https://youtu.be/qyQ5S3cry1E)
 * [Verkefni 3 (CSS #1)](https://github.com/vefforritun/vef1-2021-v3), sett fyrir 6. september, skilist 14. september.
-  * [Kynning í fyrirlestri](https://youtu.be/)
+  * [Kynning í fyrirlestri](https://youtu.be/_q1B4EHQzgQ)
 
 ### Hópverkefni
 
-* Hópverkefni 1, sett fyrir í viku 5 (20.–26. september), skilist í viku 9 (18.–24. október).
+* Hópverkefni 1, sett fyrir í viku 6 (27. september–3. október), skilist í viku 10 (18.–24. október).
 * Hópverkefni 2, sett fyrir í viku 10 (25.–31. október), skilist í viku 14 (22.–28. nóvember).
 
 ## Dæmatímar
