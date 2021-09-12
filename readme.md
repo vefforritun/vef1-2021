@@ -10,15 +10,15 @@ Hér má nálgast alla fyrirlestra, dæmi og verkefni í áfangagnum vefforritun
 |  2   | 30. ágúst     | Element; töflur, listar, og form; að skrifa HTML; aðgengi og SEO  | HTML #2               | HTML #1              |
 |  3   |  6. september | CSS; box model; specificity og cascade; visual formatting         | CSS #1                | HTML #2              |
 |  4   | 13. september | Letur & litir; CSS virkni & stuðningur; flexbox                   | CSS #2                | CSS #1               |
-|  5   | 20. september | Skalanlegir vefir; kvikun; hönnun                                 | CSS #3                | CSS #2               |
-|  6   | 27. september | Grid; Git, GitHub                                                 | CSS #4, Hópverkefni 1 | CSS #3               |
-|  7   |  4. október   | CSS í stærri verkefnum; node.js & npm; Sass og stylelint          |                       | CSS #4               |
-|  8   | 11. október   | JavaScript, breytur, gagnatög, stýriskipanir, föll                | JS #1                 |                      |
-|  9   | 18. október   | Fylki&hlutir. Villumeðhöndlun, reglulegar segðir, einingar        | JS #2                 | JS #1                |
-|  10  | 25. október   | Forritun á vef, DOM og atburðir, ósamstillt forritun              | JS #3, Hópverkefni 2  | JS #2, Hópverkefni 1 |
-|  11  |  1. nóvember  | HTTP og form, Ajax, eslint, unobtrusive JavaScript                | JS #4                 | JS #3                |
-|  12  |  8. nóvember  | Hlutir, fallaforritun, HTML5 og JS, tæki og tól                   |                       | JS #4                |
-|  13  | 15. nóvember  | Buffer                                                            |                       |                      |
+|  5   | 20. september | Skalanlegir vefir; hönnun; grid; kvikun                           | CSS #3                | CSS #2               |
+|  6   | 27. september | node.js & npm; Sass og stylelint; CSS í stærri verkefnum          | CSS #4                | CSS #3               |
+|  7   |  4. október   | Git, GitHub                                                       | Hópverkefni 1         | CSS #4               |
+|  8   | 11. október   | **Engin fyrirlestur**                                             |                       |                      |
+|  9   | 18. október   | JavaScript: breytur, stýriskipanir, föll, fylki, hlutir           | JS #1                 |                      |
+|  10  | 25. október   | Einingar; forritun á vef: DOM og atburðir                         | JS #2                 | JS #1, Hópverkefni 1 |
+|  11  |  1. nóvember  | Villumeðhöndlun & reglulegar segðir; Ósamstillt forritun          | JS #3, Hópverkefni 2  | JS #2                |
+|  12  |  8. nóvember  | HTTP og form; Ajax; tæki og tól                                   | JS #4                 | JS #3                |
+|  13  | 15. nóvember  | Hlutir; fallaforritun; HTML5 og JS                                |                       | JS #4                |
 |  14  | 22. nóvember  | Samantekt og upprifjun, upplýsingar um lokapróf                   |                       | Hópverkefni 2        |
 
 Nánar er farið yfir kennsluáætlun í [fyrirlestri 1.1](./vikur/01/01.1.kynning.md) í [viku 1](./vikur/01/).

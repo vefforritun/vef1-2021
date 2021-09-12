@@ -1,30 +1,47 @@
-# Vika 8, 11.–17. október 2021
+# Vika 9, 18.–24. október 2021
 
 **Þessi vikuáætlun hefur ekki verið uppfærð, hér er aðeins afrit frá [vefforritun 1, 2020](https://github.com/vefforritun/vef1-2020).**
 
 ## Fyrirlestrar
 
-[Fyrirlestur 8.1: Villur og regex](08.1.errors.regex.md), [vídeó](https://youtu.be/vl_G2uDAORI)
+[Fyrirlestur 9.1: JavaScript gildi, týpur og virkjar](09.1.javascript.md), [vídeó](https://youtu.be/V8QemIYqGRo)
 
-[Fyrirlestur 8.2: Einingar](08.2.modules.md), [vídeó](https://youtu.be/djyI61lMvXc)
+[Fyrirlestur 9.2: JavaScript forrit](09.2.programs.md), [vídeó](https://youtu.be/vUPe9oSD6xw)
 
-[Fyrirlestur 8.3: Ósamstillt forritun](08.3.async.md), [vídeó](https://youtu.be/KdjdGqYaMYA)
+[Fyrirlestur 9.3: JavaScript föll](09.3.functions.md), [vídeó](https://youtu.be/C60cnlwZLEs)
 
-[Fyrirlestur 8.4: Dæmi](08.4.daemi.md), [Sýnidæmi](daemi/synidaemi/), [vídeó](https://youtu.be/Gd7nTJzrYZI)
+[Fyrirlestur 9.4: Array og objects](09.4.array.objects.md), [vídeó](https://youtu.be/nY9H5cs3MNI)
 
 ## Dæmi
 
-* Errors
-  * [catch](daemi/errors/catch.js)
-  * [errors](daemi/errors/errors.js)
-  * [finally](daemi/errors/finally.js)
-  * [strict](daemi/errors/strict.js)
-  * [throw](daemi/errors/throw.js)
-* Regex
-  * [examples](daemi/regex/examples.js)
-  * [replace](daemi/regex/replace.js)
-* Modules
-  * [calculator](daemi/modules/calculator.js)
-  * [modules](daemi/modules/modules.js)
-  * [no-modules](daemi/modules/no-modules.js)
-* [Sýnidæmi](daemi/synidaemi/)
+* Gildi, týpur og virkjar
+  * [comments](daemi/general/comments.js)
+  * [number](daemi/general/number.js)
+  * [helpers](daemi/general/helpers.js)
+  * [string](daemi/general/string.js)
+* Forrit
+  * [if](daemi/programs/if.js)
+  * [loops](daemi/programs/loops.js)
+  * [date](daemi/programs/date.js)
+  * [input](daemi/programs/input.js)
+  * [math](daemi/programs/math.js)
+  * [variables](daemi/programs/variables.js)
+* Functions
+  * [anon](daemi/functions/anon.js)
+  * [args](daemi/functions/args.js)
+  * [arrow](daemi/functions/arrow.js)
+  * [closures](daemi/functions/closures.js)
+  * [declaration](daemi/functions/declaration.js)
+  * [functions](daemi/functions/functions.js)
+  * [global](daemi/functions/global.js)
+  * [hoisting](daemi/functions/hoisting.js)
+  * [return-func](daemi/functions/return-func.js)
+  * [scope](daemi/functions/scope.js)
+* Array & objects
+  * [array](daemi/array.objects/array.js)
+  * [destructuring](daemi/array.objects/destructuring.js)
+  * [object-properties](daemi/array.objects/object-properties.js)
+  * [object](daemi/array.objects/object.js)
+  * [rest](daemi/array.objects/rest.js)
+  * [spread](daemi/array.objects/spread.js)
+  * [typeof-array](daemi/array.objects/typeof-array.js)

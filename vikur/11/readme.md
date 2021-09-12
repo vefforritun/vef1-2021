@@ -1,29 +1,24 @@
-# Vika 10, 25.–31. október 2021
+# Vika 11, 1.–7. nóvember 2021
 
 **Þessi vikuáætlun hefur ekki verið uppfærð, hér er aðeins afrit frá [vefforritun 1, 2020](https://github.com/vefforritun/vef1-2020).**
 
 ## Fyrirlestrar
 
-[Fyrirlestur 10.1: HTTP](10.1.http.md), [vídeó](https://youtu.be/bTLLHgOW9-M)
+[Fyrirlestur 11.1: Villur og regex](11.1.errors.regex.md), [vídeó](https://youtu.be/vl_G2uDAORI)
 
-[Fyrirlestur 10.2: Ajax](10.2.ajax.md), [vídeó](https://youtu.be/L1w0HcUeVBE)
-
-[Fyrirlestur 10.3: Tæki og tól](10.3.tools.md), [vídeó](https://youtu.be/ALaPtDXEdgY)
-
-[Fyrirlestur 10.4: Sýnidæmi #1](daemi/tools), [vídeó](https://youtu.be/nfkXlQfhheU)
-
-[Fyrirlestur 10.5: Sýnidæmi #2](daemi/synidaemi), [vídeó](https://youtu.be/Y-XauzIQbIk)
+[Fyrirlestur 11.2: Ósamstillt forritun](11.2.async.md), [vídeó](https://youtu.be/KdjdGqYaMYA)
 
 ## Dæmi
 
-[Skoða „lifandi“ dæmi](https://vefforritun.github.io/vef1-2021/vikur/10/)
+[Skoða „lifandi“ dæmi](https://vefforritun.github.io/vef1-2021/vikur/11/)
 
-* [form.html](daemi/form.html)
-* Ajax
-  * [cors](daemi/ajax/cors.html)
-  * [fetch.html](daemi/ajax/fetch.html)
-  * [fetch.js](daemi/ajax/fetch.js)
-  * [json](daemi/ajax/json.js)
-  * [xhr](daemi/ajax/xhr.html)
-* [Tól](daemi/tools)
-* [Sýnidæmi](daemi/synidaemi)
+* Errors
+  * [catch](daemi/errors/catch.js)
+  * [errors](daemi/errors/errors.js)
+  * [finally](daemi/errors/finally.js)
+  * [strict](daemi/errors/strict.js)
+  * [throw](daemi/errors/throw.js)
+* Regex
+  * [examples](daemi/regex/examples.js)
+  * [replace](daemi/regex/replace.js)
+

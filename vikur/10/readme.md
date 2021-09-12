@@ -1,21 +1,23 @@
-# Vika 9, 18.–24. október 2021
+# Vika 10, 25.–31. október 2021
 
 **Þessi vikuáætlun hefur ekki verið uppfærð, hér er aðeins afrit frá [vefforritun 1, 2020](https://github.com/vefforritun/vef1-2020).**
 
 ## Fyrirlestrar
 
-[Fyrirlestur 9.1: DOM & vafrinn](09.1.browser-dom.md), [vídeó](https://youtu.be/fJQZCVY_5H8)
+[Fyrirlestur 10.1: Einingar](10.1.modules.md), [vídeó](https://youtu.be/djyI61lMvXc)
 
-[Fyrirlestur 9.2: Atburðir](09.2.events.md), [vídeó](https://youtu.be/qaoWoeYwsL4)
+[Fyrirlestur 10.2: DOM & vafrinn](10.2.browser-dom.md), [vídeó](https://youtu.be/fJQZCVY_5H8)
 
-[Fyrirlestur 9.3: eslint](09.3.eslint.md), [vídeó](https://youtu.be/-OpQ1DHAe6M)
-
-[Fyrirlestur 9.4: Sýnidæmi](daemi/synidaemi), [vídeó](https://youtu.be/QTl0A1d_ONc)
+[Fyrirlestur 10.3: Atburðir](10.3.events.md), [vídeó](https://youtu.be/qaoWoeYwsL4)
 
 ## Dæmi
 
-[Skoða „lifandi“ dæmi](https://vefforritun.github.io/vef1-2021/vikur/09/)
+[Skoða „lifandi“ dæmi](https://vefforritun.github.io/vef1-2021/vikur/10/)
 
+* Modules
+  * [calculator](daemi/modules/calculator.js)
+  * [modules](daemi/modules/modules.js)
+  * [no-modules](daemi/modules/no-modules.js)
 * DOM
   * [travel](daemi/dom/01.travel.html)
   * [find](daemi/dom/02.find.html)
