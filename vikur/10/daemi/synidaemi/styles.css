@@ -5,7 +5,7 @@
 
 html {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 *, *:before, *:after {
@@ -15,64 +15,70 @@ html {
 main {
   display: flex;
   flex-direction: column;
+  align-items: center;
 
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 20px;
 }
 
-h1 {
-  margin-bottom: 20px;
-
-  text-align: center;
+.heading {
+  margin-bottom: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2rem;
 }
 
-form {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.items {
+  width: 100%;
 
-  margin-bottom: 20px;
-}
-
-button,
-input {
-  flex: 1;
-  font-size: 1em;
-  padding: 5px;
-}
-
-input {
-  flex: 4;
-  margin-right: 10px;
-}
-
-.loading {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  list-style: none;
 }
 
-.loading img {
-  margin-bottom: 20px;
-}
-
-dl {
+.item {
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
+
+  margin-bottom: 15px;
 }
 
-dt {
-  flex: 0 0 30%;
+.item__checkbox {
+  margin-right: 20px;
+  transform: scale(2);
+}
+
+.item__text {
+  padding: 5px;
+  flex: 1;
+  display: block;
+  white-space: nowrap;
   overflow: hidden;
+  max-width: 100%;
   text-overflow: ellipsis;
-  font-weight: bold;
 }
 
-dd {
-  flex: 70% 0 0;
-  margin-bottom: 20px;
-  padding-left: 20px;
+.item--done .item__text {
+  text-decoration: line-through;
+}
 
-  word-break: break-word;
+.item__edit {
+  padding: 5px;
+  font-size: 1rem;
+  flex: 1;
+}
+
+.item__button {
+  padding: 5px;
+  font-size: 1rem;
+}
+
+.form__input {
+  padding: 5px;
+  font-size: 1rem;
+}
+
+.form__button {
+  padding: 5px;
+  font-size: 1rem;
 }

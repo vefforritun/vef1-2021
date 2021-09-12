@@ -1,29 +1,39 @@
-# Vika 10, 25.–31. október 2021
+# Vika 9, 18.–24. október 2021
 
 **Þessi vikuáætlun hefur ekki verið uppfærð, hér er aðeins afrit frá [vefforritun 1, 2020](https://github.com/vefforritun/vef1-2020).**
 
 ## Fyrirlestrar
 
-[Fyrirlestur 10.1: HTTP](10.1.http.md), [vídeó](https://youtu.be/bTLLHgOW9-M)
+[Fyrirlestur 9.1: DOM & vafrinn](09.1.browser-dom.md), [vídeó](https://youtu.be/fJQZCVY_5H8)
 
-[Fyrirlestur 10.2: Ajax](10.2.ajax.md), [vídeó](https://youtu.be/L1w0HcUeVBE)
+[Fyrirlestur 9.2: Atburðir](09.2.events.md), [vídeó](https://youtu.be/qaoWoeYwsL4)
 
-[Fyrirlestur 10.3: Tæki og tól](10.3.tools.md), [vídeó](https://youtu.be/ALaPtDXEdgY)
+[Fyrirlestur 9.3: eslint](09.3.eslint.md), [vídeó](https://youtu.be/-OpQ1DHAe6M)
 
-[Fyrirlestur 10.4: Sýnidæmi #1](daemi/tools), [vídeó](https://youtu.be/nfkXlQfhheU)
-
-[Fyrirlestur 10.5: Sýnidæmi #2](daemi/synidaemi), [vídeó](https://youtu.be/Y-XauzIQbIk)
+[Fyrirlestur 9.4: Sýnidæmi](daemi/synidaemi), [vídeó](https://youtu.be/QTl0A1d_ONc)
 
 ## Dæmi
 
-[Skoða „lifandi“ dæmi](https://vefforritun.github.io/vef1-2021/vikur/10/)
+[Skoða „lifandi“ dæmi](https://vefforritun.github.io/vef1-2021/vikur/09/)
 
-* [form.html](daemi/form.html)
-* Ajax
-  * [cors](daemi/ajax/cors.html)
-  * [fetch.html](daemi/ajax/fetch.html)
-  * [fetch.js](daemi/ajax/fetch.js)
-  * [json](daemi/ajax/json.js)
-  * [xhr](daemi/ajax/xhr.html)
-* [Tól](daemi/tools)
+* DOM
+  * [travel](daemi/dom/01.travel.html)
+  * [find](daemi/dom/02.find.html)
+  * [change](daemi/dom/03.change.html)
+  * [create](daemi/dom/04.create.html)
+  * [attribute](daemi/dom/05.attribute.html)
+  * [helper](daemi/dom/06.helper.html)
+  * [data](daemi/dom/07.data.html)
+  * [styles](daemi/dom/08.styles.html)
+  * [sizes](daemi/dom/09.sizes.html)
+  * [repaint](daemi/dom/10.repaint.html)
+  * [animation](daemi/dom/11.animation.html)
+* Atburðir
+  * [button](daemi/events/01.button.html)
+  * [event](daemi/events/02.event.html)
+  * [scroll](daemi/events/03.scroll.html)
+  * [domloaded](daemi/events/04.domloaded.html)
+  * [debounce](daemi/events/05.debounce.html)
+  * [timeout](daemi/events/06.timeout.html)
+  * [form](daemi/events/07.form.html)
 * [Sýnidæmi](daemi/synidaemi)

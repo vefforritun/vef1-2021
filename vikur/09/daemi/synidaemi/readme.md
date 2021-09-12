@@ -1,24 +1,23 @@
-# Sýnidæmi
+# Reiknigaman
 
-Forrita skal viðmót sem leyfir að bæta við, breyta, eyða og klára verkefni af lista.
+Útfæra leik sem gengur út á að reikna 10 stærðfræðidæmi eins hratt og mögulegt er og birta niðurstöðu.
 
-Gefið er HTML skjal með þrem atriðum sem skulu virka eftir að forrit keyrir. Allir stílar sem þarf fyrir verkefni eru gefnir.
+Þegar `index.html` er opnað kemur upp gluggi sem lætur notanda vita að þegar ýtt er á `OK` byrji leikur sem snúist út á að svara eins mörgum af 10 dæmum rétt á sem stystum tíma með skilaboðunum `Markmiðið er að svara eins mörgum af 10 dæmum rétt eins hratt og mögulegt er.`. Birt eru dæmi og möguleiki til að svara þeim fyrir hvert af þessum tíu dæmum. Eftir leikinn eru birt skilaboð um fjölda réttra dæma, tíma sem það tók að svara í sekúndum og meðalfjölda réttra svara á sekúndu:
 
-Færslur hafa eftirfarandi virkni:
-
-* Þegar smellt (`click`) er á texta færslu er texta breytt í `<input>` sem leyfir að breyta texta. Þegar smellt er á `<enter>` er input breytt aftur í texta
-  * Setja skal `focus` í input
-* Þegar ýtt er á `Eyða` er færslu eytt úr lista
-* Þegar smellt er á `checkbox` er færsla merkt sem „búin“
-* Þegar fyllt er inn í form fyrir neðan lista og smellt á „Bæta við“ er færslu bætt við sem virkar eins og þær færslur sem fyrir voru
-  * Ekki skal leyfa að bæta við tóma strengnum eða streng sem er aðeins bil
-  * Eftir að búið er að bæta við skal tæma input
-
-Útfæra skal JavaScript virkni innan þess módúl sem gefinn er.
-
-`browser-sync` er uppsett í verkefninu:
-
-```bash
-npm install
-npm run dev
+```text
+Þú svaraðir X af 10 dæmum rétt á Y sekúndum
+Meðalrétt svör á sekúndu eru Z
 ```
+
+Þar sem `Y` og `Z` hafa tvo aukastafi.
+
+Ef notandi ýtir á `Cancel` í miðjum leik eru birt skilaboð `Hætt í leik.` og engar upplýsingar um rétt dæmi eru birt.
+
+Möguleg dæmi eru:
+
+* `+` dæmi þar sem báðar tölur geta verið á bilinu `[1, 100]`
+* `-` dæmi þar sem báðar tölur geta verið á bilinu `[1, 100]`
+* `*` dæmi þar sem báðar tölur geta verið á bilinu `[1, 10]`
+* `/` dæmi þar sem fyrri tala er á bilinu `[2, 10]` og seinni talan er fyrri talan sinnum tala á bilinu `[2, 10]` þ.a. svarið verði alltaf heiltala
+
+Eftir það er notanda boðið að spila annan leik, ef valið er `OK` er annar leikur spilaður, annars er hætt.

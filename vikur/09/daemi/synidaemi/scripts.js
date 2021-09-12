@@ -1,140 +1,136 @@
-/* eslint-disable no-restricted-syntax */
-const ENTER_KEYCODE = 13;
+/**
+ * Verkefni 7 – Reikniæfingarforrit
+ *
+ * Forrit sem æfir hraða í að reikna einföld dæmi
+ */
 
-const text = (() => {
-  let items;
+// fasti sem segir til um hve marga leiki eigi að spila
+const GAMES_TO_PLAY = 2;
 
-  // hjálparfall til að útbúa element
-  function el(type, className, clickHandler) {
-    const element = document.createElement(type);
+/**
+ * Birtir upplýsingar um leik og eftir að notandi samþykkir spilar fyrsta leik
+ * með kalli í play().
+ * Eftir leik er notanda boðið að spila annan leik, ef ekki hættir forrit.
+ */
+function start() {
+  alert('Svaraðu eins mörgum af 10 dæmum rétt eins hratt og mögulegt er.');
 
-    if (className) {
-      element.classList.add(className);
-    }
+  do {
+    play();
+  } while (confirm('Spila annan leik?'));
+}
 
-    if (clickHandler) {
-      element.addEventListener('click', clickHandler);
-    }
+/**
+ * Spilar einn leik. Heldur utan um hvenær leikur byrjaði, hvenær endar og
+ * fjölda réttra svara. Eftir leik eru birtar upplýsingar um niðurstöðu:
+ *   Þú svaraðir X af 10 dæmum rétt á Y sekúndum
+ *   Meðalrétt svör á sekúndu eru Z
+ * Þar sem Y og Z hafa tvo aukastafi.
+ *
+ * Ef notandi ýtir á "Cancel" í leik eru skilaboðin "Hætt í leik." birt og engar
+ * upplsýingar um niðurstöður.
+ *
+ */
+function play() {
+  let correct = 0;
+  const startDate = new Date();
 
-    return element;
-  }
+  for (let i = 0; i < GAMES_TO_PLAY; i++) {
+    const result = ask();
 
-  // event handler fyrir það að klára færslu
-  function finish(e) {
-    e.target.parentNode.classList.toggle('item--done');
-  }
-
-  // event handler fyrir það að klára að breyta færslu
-  function commit(e) {
-    const { keyCode, target } = e;
-
-    if (keyCode !== ENTER_KEYCODE) {
+    if (result === null) {
+      alert('Hætt í leik.');
       return;
     }
 
-    const { value, parentNode } = target;
-    target.removeEventListener('keyup', commit);
-
-    parentNode.removeChild(target);
-
-    // eslint-disable-next-line no-use-before-define
-    const textEl = el('span', 'item__text', edit);
-    textEl.appendChild(document.createTextNode(value));
-
-    const button = parentNode.querySelector('.item__button');
-
-    parentNode.insertBefore(textEl, button);
-  }
-
-  // event handler fyrir það að breyta færslu
-  function edit(e) {
-    const { target } = e;
-    const { textContent, parentNode } = target;
-
-    parentNode.removeChild(target);
-
-    const input = el('input', 'item__edit');
-    input.setAttribute('type', 'text');
-    input.value = textContent;
-    input.addEventListener('keyup', commit);
-
-    const button = parentNode.querySelector('.item__button');
-
-    parentNode.insertBefore(input, button);
-    input.focus();
-  }
-
-  // event handler til að eyða færslu
-  function deleteItem(e) {
-    const parent = e.target.parentNode;
-
-    const checkbox = parent.querySelector('.item__checkbox');
-    const textEl = parent.querySelector('.item__text');
-    const button = parent.querySelector('.item__button');
-
-    checkbox.removeEventListener('click', finish);
-    textEl.removeEventListener('click', edit);
-    button.removeEventListener('click', deleteItem);
-
-    parent.parentNode.removeChild(parent);
-  }
-
-  // fall sem sér um að bæta við nýju item
-  function add(value) {
-    const item = el('li', 'item');
-
-    const checkbox = el('input', 'item__checkbox', finish);
-    checkbox.setAttribute('type', 'checkbox');
-
-    const textEl = el('span', 'item__text', edit);
-    textEl.appendChild(document.createTextNode(value));
-
-    const button = el('button', 'item__button', deleteItem);
-    button.appendChild(document.createTextNode('Eyða'));
-
-    item.appendChild(checkbox);
-    item.appendChild(textEl);
-    item.appendChild(button);
-
-    items.appendChild(item);
-  }
-
-  function formHandler(e) {
-    e.preventDefault();
-
-    const input = e.target.querySelector('.form__input');
-
-    if (input.value.trim().length > 0) {
-      add(input.value.trim());
+    if (result) {
+      correct++;
     }
-
-    input.value = '';
   }
 
-  function init(_form, _items) {
-    items = _items;
-    _form.addEventListener('submit', formHandler);
+  const end = new Date();
+  const elapsed = ((end - startDate) / 1000).toFixed(2);
+  const avg = (correct / elapsed).toFixed(2);
 
-    for (const item of items.querySelectorAll('.item')) {
-      const checkbox = item.querySelector('.item__checkbox');
-      checkbox.addEventListener('click', finish);
+  const result = `Þú svaraðir ${correct} af ${GAMES_TO_PLAY} dæmum rétt.
+Tími var ${elapsed} sekúndur.
+Meðalrétt svör á sekúndu eru ${avg}`;
 
-      const textEl = item.querySelector('.item__text');
-      textEl.addEventListener('click', edit);
+  alert(result);
+}
 
-      const button = item.querySelector('.item__button');
-      button.addEventListener('click', deleteItem);
-    }
+/**
+ * Spyr einnar spurningar og skilar upplýsingum um svar (mögulega með því að
+ * nota true, false og null ef notandi hættir). Birtir notanda propmpt til að
+ * svara í og túlkar svarið yfir í tölu.
+ *
+ * Mögulegar spurningar eru:
+ * - `+` dæmi þar sem báðar tölur geta verið á bilinu `[1, 100]`
+ * - `-` dæmi þar sem báðar tölur geta verið á bilinu `[1, 100]`
+ * - `*` dæmi þar sem báðar tölur geta verið á bilinu `[1, 10]`
+ * - `/` dæmi þar sem fyrri tala er á bilinu `[2, 10]` og seinni talan er fyrri
+ *   talan sinnum tala á bilinu `[2, 10]` þ.a. svarið verði alltaf heiltala
+ *
+ * Sniðugt væri að færa það að búa til spurningu í nýtt fall sem ask() kallar í.
+ */
+function ask() {
+  const question = createQuestion();
+
+  const answer = prompt(`Hvað er ${question.question}?`);
+
+  if (answer === null) {
+    return null;
+  }
+
+  return parseInt(answer, 10) === question.answer;
+}
+
+function createQuestion() {
+  const operators = ['+', '-', '*', '/'];
+
+  const operator = operators[randomNumber(0, operators.length - 1)];
+
+  let a;
+  let b;
+  let answer = null;
+
+  switch (operator) {
+    case '+':
+      a = randomNumber(10, 100);
+      b = randomNumber(10, 100);
+      answer = a + b;
+      break;
+    case '-':
+      a = randomNumber(10, 100);
+      b = randomNumber(10, 100);
+      answer = a - b;
+      break;
+    case '*':
+      a = randomNumber(1, 10);
+      b = randomNumber(1, 10);
+      answer = a * b;
+      break;
+    case '/':
+      b = randomNumber(2, 10);
+      a = randomNumber(2, 10) * 2;
+      answer = a / b;
+      break;
+    default:
+      break;
   }
 
   return {
-    init,
+    question: `${a} ${operator} ${b}`,
+    answer,
   };
-})();
+}
 
-document.addEventListener('DOMContentLoaded', () => {
-  const form = document.querySelector('.form');
-  const items = document.querySelector('.items');
+/**
+ * Skilar tölu af handahófi á bilinu [min, max]
+ */
+function randomNumber(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
 
-  text.init(form, items);
-});
+// Byrjar leik
+start();

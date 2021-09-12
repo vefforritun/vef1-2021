@@ -1,127 +1,130 @@
-// const API_URL = '/example.json?domain=';
-const API_URL = 'https://apis.is/isnic?domain=';
+/* eslint-disable no-restricted-syntax */
+const ENTER_KEYCODE = 13;
 
-function el(name, ...children) {
-  const element = document.createElement(name);
+const text = (() => {
+  let items;
 
-  for (let child of children) { /* eslint-disable-line */
-    if (typeof child === 'string') {
-      element.appendChild(document.createTextNode(child));
-    } else if (child) {
-      element.appendChild(child);
+  // hjálparfall til að útbúa element
+  function el(type, className, clickHandler) {
+    const element = document.createElement(type);
+
+    if (className) {
+      element.classList.add(className);
     }
-  }
 
-  return element;
-}
-
-/**
- * Leit að lénum á Íslandi gegnum apis.is
- */
-const program = (() => {
-  let input;
-  let results;
-
-  function empty(element) {
-    while (element.firstChild) {
-      element.removeChild(element.firstChild);
+    if (clickHandler) {
+      element.addEventListener('click', clickHandler);
     }
+
+    return element;
   }
 
-  function showLoading() {
-    empty(results);
-
-    const img = document.createElement('img');
-    img.setAttribute('alt', '');
-    img.setAttribute('src', 'loading.gif');
-
-    const loading = el('div', img, 'Leita að léni...');
-    loading.classList.add('loading');
-
-    results.appendChild(loading);
+  // event handler fyrir það að klára færslu
+  function finish(e) {
+    e.target.parentNode.classList.toggle('item--done');
   }
 
-  function showMessage(msg) {
-    empty(results);
-    results.appendChild(el('p', msg));
-  }
+  // event handler fyrir það að klára að breyta færslu
+  function commit(e) {
+    const { keyCode, target } = e;
 
-  function showResults(searchResults) {
-    if (searchResults.length === 0) {
-      showMessage('Lén er ekki skráð');
+    if (keyCode !== ENTER_KEYCODE) {
       return;
     }
 
-    const [{
-      domain,
-      registered,
-      lastChange,
-      expires,
-      registrantname,
-      address,
-      country,
-      email,
-    }] = searchResults;
+    const { value, parentNode } = target;
+    target.removeEventListener('keyup', commit);
 
-    const element = el('dl',
-      el('dt', 'Lén'),
-      el('dd', domain),
-      registrantname ? el('dt', 'Skráningaraðili') : null,
-      registrantname ? el('dd', registrantname) : null,
-      el('dt', 'Skráð'),
-      el('dd', registered),
-      el('dt', 'Seinast breytt'),
-      el('dd', lastChange),
-      el('dt', 'Rennur út'),
-      el('dd', expires),
-      email ? el('dt', 'Netfang') : null,
-      email ? el('dd', email) : null,
-      address ? el('dt', 'Heimilisfang') : null,
-      address ? el('dd', address) : null,
-      country ? el('dt', 'Land') : null,
-      country ? el('dd', country) : null);
+    parentNode.removeChild(target);
 
-    empty(results);
+    // eslint-disable-next-line no-use-before-define
+    const textEl = el('span', 'item__text', edit);
+    textEl.appendChild(document.createTextNode(value));
 
-    results.appendChild(element);
+    const button = parentNode.querySelector('.item__button');
+
+    parentNode.insertBefore(textEl, button);
   }
 
-  function search(value) {
-    showLoading();
+  // event handler fyrir það að breyta færslu
+  function edit(e) {
+    const { target } = e;
+    const { textContent, parentNode } = target;
 
-    fetch(`${API_URL}${value}`)
-      .then((result) => {
-        if (!result.ok) {
-          throw new Error('Non 200 status');
-        }
+    parentNode.removeChild(target);
 
-        return result.json();
-      })
-      .then((data) => {
-        showResults(data.results);
-      })
-      .catch((error) => {
-        console.error('Villa', error);
-        showMessage('Villa við að sækja gögn');
-      });
+    const input = el('input', 'item__edit');
+    input.setAttribute('type', 'text');
+    input.value = textContent;
+    input.addEventListener('keyup', commit);
+
+    const button = parentNode.querySelector('.item__button');
+
+    parentNode.insertBefore(input, button);
+    input.focus();
   }
 
-  function onSubmit(e) {
+  // event handler til að eyða færslu
+  function deleteItem(e) {
+    const parent = e.target.parentNode;
+
+    const checkbox = parent.querySelector('.item__checkbox');
+    const textEl = parent.querySelector('.item__text');
+    const button = parent.querySelector('.item__button');
+
+    checkbox.removeEventListener('click', finish);
+    textEl.removeEventListener('click', edit);
+    button.removeEventListener('click', deleteItem);
+
+    parent.parentNode.removeChild(parent);
+  }
+
+  // fall sem sér um að bæta við nýju item
+  function add(value) {
+    const item = el('li', 'item');
+
+    const checkbox = el('input', 'item__checkbox', finish);
+    checkbox.setAttribute('type', 'checkbox');
+
+    const textEl = el('span', 'item__text', edit);
+    textEl.appendChild(document.createTextNode(value));
+
+    const button = el('button', 'item__button', deleteItem);
+    button.appendChild(document.createTextNode('Eyða'));
+
+    item.appendChild(checkbox);
+    item.appendChild(textEl);
+    item.appendChild(button);
+
+    items.appendChild(item);
+  }
+
+  function formHandler(e) {
     e.preventDefault();
 
-    const { value } = input;
+    const input = e.target.querySelector('.form__input');
 
-    // TODO höndla tómstreng
+    if (input.value.trim().length > 0) {
+      add(input.value.trim());
+    }
 
-    search(value);
+    input.value = '';
   }
 
-  function init(domains) {
-    const form = domains.querySelector('form');
-    input = form.querySelector('input');
-    results = domains.querySelector('.results');
+  function init(_form, _items) {
+    items = _items;
+    _form.addEventListener('submit', formHandler);
 
-    form.addEventListener('submit', onSubmit);
+    for (const item of items.querySelectorAll('.item')) {
+      const checkbox = item.querySelector('.item__checkbox');
+      checkbox.addEventListener('click', finish);
+
+      const textEl = item.querySelector('.item__text');
+      textEl.addEventListener('click', edit);
+
+      const button = item.querySelector('.item__button');
+      button.addEventListener('click', deleteItem);
+    }
   }
 
   return {
@@ -130,5 +133,8 @@ const program = (() => {
 })();
 
 document.addEventListener('DOMContentLoaded', () => {
-  program.init(document.querySelector('.domains'));
+  const form = document.querySelector('.form');
+  const items = document.querySelector('.items');
+
+  text.init(form, items);
 });

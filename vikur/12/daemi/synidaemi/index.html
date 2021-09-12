@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Verkefni 10</title>
+  <link rel="stylesheet" href="./dist/styles.css">
+</head>
+<body>
+  <header>
+      <h1>Reiknileikur</h1>
+  </header>
+  <main>
+    <section class="game">
+
+      <div class="text">
+        <h2 class="text__title">Reiknaðu!</h2>
+        <div class="text__content">Svaraðu eins mörgum reikningsdæmum og þú getur áður en tíminn rennur út!</div>
+      </div>
+
+      <button class="start button button--large">Byrja leik</button>
+
+      <div class="result result--hidden">
+        <div class="result__text"></div>
+        <form class="result__form">
+          <label for="name" class="result__label">Nafn:</label>
+          <input type="text" id="name" class="result__input" required>
+          <button class="button">Skrá á stigatöflu</button>
+        </form>
+      </div>
+
+      <div class="problem problem--hidden">
+        <div class="problem__timer"></div>
+        <div class="problem__question"></div>
+        <form class="problem__answer">
+          <input type="number" class="problem__input">
+          <button class="button">Svara</button>
+        </form>
+      </div>
+
+    </section>
+
+    <section class="highscore">
+      <h2 class="highscore__title">Stigatafla</h2>
+      <div class="highscore__scores">
+        <p>Engin stig skráð</p>
+      </div>
+      <div class="highscore__button highscore__button--hidden">
+        <button class="button">Hreinsa stigatöflu</button>
+      </div>
+    </section>
+  </main>
+  <script src="./dist/bundle.js"></script>
+</body>
+</html>

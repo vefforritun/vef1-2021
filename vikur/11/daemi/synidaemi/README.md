@@ -1,84 +1,72 @@
-# Verkefni 10 í vefforritun 1 2018
+# Vef1 2018 — Verkefni 9
 
-Verkefnið var sett upp með öllum tólum með því að keyra:
+Verkefni útfært að hluta í fyrirlestri 10. [Full-byggð sýnilausn frá 2018](https://github.com/vefforritun/vef1-2018-v9-synilausn).
 
-```bash
-> npm install --save-dev rollup @babel/core @babel/cli @babel/preset-env @babel/polyfill rollup-plugin-babel node-sass concurrently stylelint stylelint-config-sass-guidelines stylelint-config-standard eslint browser-sync
- npx eslint --init
-✔ How would you like to use ESLint? · style
-✔ What type of modules does your project use? · none
-✔ Which framework does your project use? · none
-✔ Does your project use TypeScript? · No / Yes
-✔ Where does your code run? · browser
-✔ How would you like to define a style for your project? · guide
-✔ Which style guide do you want to follow? · airbnb
-✔ What format do you want your config file to be in? · JavaScript
-# Yes við að installa
-```
+Útfæra skal leit og birtingu á lénum gegnum `apis.is`. `http://apis.is/isnic?domain=hi.is` leitar t.d. að upplýsingum um `hi.is` og skilar til baka hlut, t.d.:
 
-`.stylelintrc` búið til:
-
-```json
+```text
 {
-  "extends": ["stylelint-config-standard", "stylelint-config-sass-guidelines"]
+  "results": [
+    {
+    "domain": "hi.is",
+    "registrantname": "Háskóli Íslands",
+    "address": "Sæmundargötu 2",
+    "city": "Reykjavík",
+    "postalCode": "101",
+    "country": "IS",
+    "phone": "",
+    "email": "hostmaster@hi.is",
+    "registered": "11. December 1986",
+    "expires": "11. December 2018",
+    "lastChange": "29. November 2017"
+    }
+  ]
 }
 ```
 
-Scriptur búnar til í `package.json`:
+Gefinn er HTML og CSS grunnur með útliti sem ekki ætti að þurfa að breyta.
 
-Hópum saman eftir hegðun, `test:*` fyrir það sem lintar, `dev:*` fyrir það sem við notum í þróun og `build:*` sem keyrir build einu sinni. Getum þá notað `concurrently npm:test:*` til að keyra öll `test` tól.
+Leit skal:
 
----
+* Aðeins leyfa að leita ef gildi í `<input>` er ekki tómistrengur, annars skal birta skilaboðin `Lén verður að vera strengur`
+* Birta skilaboðin `Leita að léni...` ásamt mynd `loading.gif` meðan leitað er, sjá `.loading` class
 
-## Upprunaleg lýsing
+Villumeðhöndlun:
 
-Útfæra skal reiknileik sem byggir á verkefni 7. Notast við öll þau tól sem við höfum séð í vetur. Allt útlit er gefið með sass ásamt viðeigandi HTML. Leyfilegt er að breyta út af því sem gefið er.
+* Ef villa kemur upp hjá `apis.is` eða við tengingu skal birta `Villa við að sækja gögn`
+* Ef ekkert lén finnst skal birta `Lén er ekki skráð`
 
-## Leikur
+Birta skal fyrir öll lén sem finnast:
 
-Þegar smellt er á `Byrja leik` er settur af stað niðurteljari sem telur niður í 10 sekúndur. Á meðan er notanda birt dæmi fengin úr `lib/question.js`. Fyrir hvert svar er nýtt dæmi birt. Heildarfjöldi dæma ásamt fjölda réttra dæma er talin og þegar tími rennur út eru þær upplýsingar birtar ásamt stigum.
+* Lén (`domain`)
+* Skráð (`registered`)
+* Seinast breytt (`lastChange`)
+* Rennur út (`expires`)
 
-Gefinn er grunnur að leik í `lib/game.js`. Virkni til að útbúa spurningu er gefin í `lib/question.js`. Hjálparföll eru gefin í `lib/helpers.js`.
+Ef gögn eru skilgreind skal einnig birta:
 
-## Stigatafla
+* Skráningaraðili (`registrantname`)
+* Netfang (`email`)
+* Heimilisfang (`address`)
+* Land (`country`)
 
-Stigatafla byrjar tóm. Eftir að fyrsta skráning kemur er skilaboðum um að engin stig séu skráð fjarlægð og stigatafla birt. Undir stigatöflu sem ekki er tóm er takki sem leyfir að fjarlægja allar færslur úr stigatöflu. Þegar búið er að spila leik skal reikna út stig (þessi formúla var afskaplega sniðug síðla kvölds í nóvember en hefur vankanta sem komu snemma í ljós, leyfilegt er að bæta, endilega bætið):
+Dagsetningar skal birta sem [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) dagsetningar (`YYYY-MM-DD`).
 
-```math
-correct := fjöldi réttra svara
-total := fjöldi spurninga
-time := lengd leiks í sekúndum
+Útfæra skal JavaScript virkni innan þess módúl sem gefinn er.
 
-score := ((correct / total)^2 + correct) * total / time
-```
-
-`score` er síðan námundað og margfaldað með `100`.
-
-Allar færslur í stigatöflu skal geyma í `localStorage`.
-
-Gefinn er grunnur að stigatöflu í `lib/highscore.js` ásamt virkni til að vista stig í `lib/storage.js`.
-
-## Tól og grunnkóði
-
-Í verkefninu eru eftirfarandi tól uppsett:
-
-* rollup til að pakka kóða
-* babel til að transpilea kóða og gera aðgengilegri fyrir fleiri vafra
-* node-sass fyrir Sass
-* eslint fyrir lint á JavaScript
-* stylelint fyrir lint á Sass
-* browser-sync til að keyra verkefni
+`browser-sync` er uppsett í verkefninu:
 
 ```bash
-> npm install
-> npm test -s
-# Upp koma villur
-> npm run dev
-# Vefþjónn keyrir á localhost:3000
+npm install
+npm run dev
 ```
 
-Allur grunnkóði er undir `src/` en þýddur kóði undir `dist/`. `index.html` vísar rétt í þýddar skrár.
+Sjá dæmi í `demo.mp4`.
 
-Í gefnum kóða eru föll með athugasemdum. Leyfilegt er að breyta að öllu leiti.
+Ef apis.is fer niður er gefið dæmi í `example.json` sem hægt er að sækja í stað gagna með því að vísa beint í það skjal fyrir allar fyrirspurnir.
 
-`game.js` byggir á að nota aðeins módúl en `highscore.js` að nota klasa.
+## eslint
+
+Setja þarf upp `eslint` með airbnb style guide. `eslint` ætti að keyra þegar `npm test` er keyrt og linta allar javascript skrár.
+
+Leyfilegt er að slökkva á villum tengum `for of` ítrunum með `/* eslint-disable-line */`, einnig er í lagi að nota það eða leyfa almennt `console.error`. Ekki ætti að nota það fyrir annað, heldur laga villu sem koma upp.

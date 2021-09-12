@@ -13,7 +13,7 @@
 
 ## Fyrirlestrar
 
-[Fyrirlestur 3.1: CSS](03.1.css.md), [vídeó (xx:yy)](https://youtu.be/h_LwvTnc3lg)
+[Fyrirlestur 3.1: CSS](03.1.css.md), [vídeó (46:18)](https://youtu.be/h_LwvTnc3lg)
 
 [Fyrirlestur 3.2: Box model](03.2.box-model.md), [vídeó (21:22)](https://youtu.be/L88XCwXuu5g)
 
