@@ -3,22 +3,28 @@
   <head>
     <meta charset="utf-8">
     <title>Leturgerðir</title>
+    <!--
+      Þetta dæmi skilgreinir CSS „inline“ til hægðarauka. Betra væri að vísa í
+      CSS skjal með <link rel="stylesheet" href="skjal.css">
+    -->
     <style>
+    html {
+      margin: 1rem;
+    }
+
     p {
       font-size: 2em;
       margin-bottom: 10px;
-    }
-
-    section {
-      float: left;
-      margin-left: 2em;
-      margin-right: 2em;
     }
     </style>
   </head>
 
   <body>
     <section>
+      <!--
+        notum style attribute aðeins fyrir dæmi,
+        betra að setja í sér CSS skjal
+      -->
       <p style="font-family: serif">serif</p>
       <p style="font-family: sans-serif">sans-serif</p>
       <p style="font-family: cursive">cursive</p>

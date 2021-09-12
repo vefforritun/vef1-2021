@@ -5,21 +5,27 @@
     <meta charset="utf-8">
     <title>Letur og texti</title>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap" rel="stylesheet">
-    <!-- Setja þessa línu inn til að sjá mun á fauxbold og alvöru bold
+    <!-- Setja þessa línu inn til að sjá mun á „fauxbold“ og alvöru bold
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
     -->
-    <style>
 
+    <!--
+      Þetta dæmi skilgreinir CSS „inline“ til hægðarauka. Betra væri að vísa í
+      CSS skjal með <link rel="stylesheet" href="skjal.css">
+    -->
+    <style>
     html, body {
       font-family: 'Merriweather', Georgia, serif;
       font-size: 16px;
     }
 
     main {
-      width: 100%;
-      max-width: 55em; /* miðum við um 55 stafi per línu upp á lesanleika */
-
       margin: 0 auto;
+
+      width: 100%;
+
+      /* miðum við um 55 stafi per línu upp á lesanleika */
+      max-width: 55em;
     }
 
     section {
@@ -47,23 +53,26 @@
     }
 
     p {
-      line-height: 1.75;
       margin-top: 0;
+
+      /* erfum leturgerð frá body */
+      font-size: 1rem;
+      line-height: 1.5;
     }
 
-    p:first-of-type::first-letter {
+    section > p:first-of-type::first-letter {
       font: bold 2em/0.9375em 'Open Sans Condensed', 'Trebuchet MS', sans-serif;
       float: left;
       padding-right: 0.2em;
     }
 
-    p:first-of-type::first-line {
+    section > p:first-of-type::first-line {
       font-size: 1.5em;
       font-variant: small-caps;
-      line-height: 1em;
+      line-height: 1;
     }
 
-    p + p {
+    section > p + p {
       text-indent: 2em;
       margin-top: 1em;
     }
@@ -105,6 +114,21 @@
       font-weight: bold;
     }
 
+    /* gerum MerriweatherSans variable leturgerð aðgengilega */
+    @font-face {
+      font-family: 'Merriweather Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(./MerriweatherSans-Italic-VariableFont_wght.ttf) format('woff');
+      /* skilgreinum hvaða unicode stafi þessi leturgerð styður */
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    .variable {
+      font-family: 'Merriweather Sans', 'Comic Sans MS';
+    }
+
     @media print {
       nav,
       footer {
@@ -136,9 +160,20 @@
 
         <p>Aliquam velit eros, iaculis eget tellus et, porta placerat leo. Aliquam feugiat imperdiet est et ultrices. Ut pretium vel massa sit amet tristique. Aliquam pharetra libero sit amet massa pretium, vel dapibus eros varius. <strong>Duis pretium velit nec orci tristique, nec commodo felis fermentum.</strong> Maecenas elementum ex blandit velit faucibus imperdiet. Proin sed est turpis. Sed vestibulum neque ac ex ornare condimentum. Cras iaculis tellus non nunc venenatis faucibus.</p>
 
+        <div class="variable">
+          <p>Mismunandi letur „þyngdir“ með variable font:</p>
+          <!-- setjum með style attribute til einföldunar í dæmi -->
+          <p style="font-variation-settings: 'wght' 100">Letur með þyngd 100</p>
+          <p style="font-variation-settings: 'wght' 200">Letur með þyngd 200</p>
+          <p style="font-variation-settings: 'wght' 300">Letur með þyngd 300</p>
+          <p style="font-variation-settings: 'wght' 400">Letur með þyngd 400</p>
+          <p style="font-variation-settings: 'wght' 500">Letur með þyngd 500</p>
+          <p style="font-variation-settings: 'wght' 600">Letur með þyngd 600</p>
+          <p style="font-variation-settings: 'wght' 999">Letur með þyngd 999</p>
+        </div>
+
         <p>Phasellus euismod vel erat nec dapibus. Morbi vehicula, metus sed lobortis tempor, elit augue rutrum enim, a auctor arcu risus ac lectus. Morbi hendrerit felis massa, a laoreet mi molestie sit amet. Pellentesque accumsan sem vitae ipsum fermentum, quis lobortis nunc semper. <em>Ut pretium mi ultricies dolor luctus, id egestas magna pulvinar.</em> Fusce volutpat blandit metus eu fringilla. Donec egestas magna in risus dapibus vestibulum eget ut ipsum. Sed sit amet mollis est, in pharetra dui. Fusce leo turpis, tincidunt sed augue eu, fringilla tempus magna. Nunc ut blandit orci. Aenean varius gravida tellus, vel egestas eros euismod et. Nulla facilisi. Mauris dignissim, est ut convallis ornare, ipsum nunc aliquam sem, nec fermentum magna diam ac quam. In vehicula maximus quam, id pretium magna elementum in. Aenean porttitor felis sit amet erat eleifend eleifend. Mauris nec fringilla elit.</p>
       </section>
-
     </main>
   </body>
 </html>

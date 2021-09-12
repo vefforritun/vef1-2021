@@ -3,7 +3,23 @@
   <head>
     <meta charset="utf-8">
     <title>CSS breytur</title>
+    <!--
+      Þetta dæmi skilgreinir CSS „inline“ til hægðarauka. Betra væri að vísa í
+      CSS skjal með <link rel="stylesheet" href="skjal.css">
+    -->
     <style>
+    /* skilgreinum breytur sem við viljum getað notað allsstaðar */
+    :root {
+      --font-base-size: 16px;
+      --font-header-size: 2em;
+      --multiplier: 2;
+      --margins: 10px 20px;
+    }
+
+    body {
+      font-size: var(--font-base-size);
+    }
+
     h1 {
       --main-color: #f0f;
       color: var(--main-color);
@@ -12,12 +28,6 @@
     span {
       color: #000;
       background-color: var(--main-color, #0f0);
-    }
-
-    :root {
-      --header-size: 2em;
-      --multiplier: 2;
-      --margins: 10px 20px;
     }
 
     h2 {
