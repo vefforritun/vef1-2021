@@ -9,11 +9,11 @@
 
 ## Fyrirlestrar
 
-[Fyrirlestur 4.1: Letur & litir](04.1.letur-litir.md), [vídeó (xx:yy)](https://youtu.be/)
+[Fyrirlestur 4.1: Letur & litir](04.1.letur-litir.md), [vídeó (39:14)](https://youtu.be/HaWUNNEcsAw)
 
-[Fyrirlestur 4.2: CSS Stuðningur](04.2.css-studningur.md), [vídeó (xx:yy)](https://youtu.be/)
+[Fyrirlestur 4.2: CSS Stuðningur](04.2.css-studningur.md), [vídeó (32:20)](https://youtu.be/w5AcurFphgM)
 
-[Fyrirlestur 4.3: Flexbox](04.3.flexbox.md), [vídeó (xx:yy)](https://youtu.be/)
+[Fyrirlestur 4.3: Flexbox](04.3.flexbox.md), [vídeó (42:34)](https://youtu.be/A1MA9l80XKQ)
 
 ## Dæmi
 

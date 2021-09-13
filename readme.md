@@ -73,8 +73,10 @@ Verkefni eru sett fyrir í fyrirlestri á mánudegi og skal skila fyrir lok þri
 * [Verkefni 2 (HTML #2)](https://github.com/vefforritun/vef1-2021-v2), sett fyrir 30. ágúst, skilist 7. september.
   * [Kynning í fyrirlestri](https://youtu.be/qyQ5S3cry1E)
   * [Sýnilausn](https://github.com/vefforritun/vef1-2021-v2-synilausn)
-* [Verkefni 3 (CSS #1)](https://github.com/vefforritun/vef1-2021-v3), sett fyrir 6. september, skilist 14. september.
+* [Verkefni 3 (CSS #1)](https://github.com/vefforritun/vef1-2021-v3), sett fyrir 6. september, skilist ~14.~ 16. september.
   * [Kynning í fyrirlestri](https://youtu.be/_q1B4EHQzgQ)
+* [Verkefni 4 (CSS #2)](https://github.com/vefforritun/vef1-2021-v4), sett fyrir 13. september, skilist 21. september.
+  * [Kynning í fyrirlestri](https://youtu.be/Nw7FkpJl-Xo)
 
 ### Hópverkefni
 
