@@ -13,6 +13,8 @@
     .box {
       position: relative;
       width: 100%; /* fyllir upp í foreldri sitt, t.d. dálk */
+
+      margin-bottom: 10vw;
     }
 
     .box::before {
@@ -28,12 +30,22 @@
 
       background-color: red;
     }
+
+    /* töluvert einfaldara með aspect-ratio! */
+    .aspect-ratio-box {
+      aspect-ratio: 16/10;
+      background-color: green;
+    }
     </style>
   </head>
   <body>
     <main>
       <div class="box">
         <div class="content">16:10 efni</div>
+      </div>
+
+      <div class="aspect-ratio-box">
+        16:10 efni með aspect-ratio
       </div>
     </main>
   </body>

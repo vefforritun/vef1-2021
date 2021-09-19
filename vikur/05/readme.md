@@ -1,7 +1,5 @@
 # Vika 5, 20.–26. september 2021
 
-**Þessi vikuáætlun er í vinnslu**
-
 ## Lesefni
 
 * [Bókin um vefforritun](https://bok.vefforritun.is/)
@@ -15,9 +13,9 @@
 
 [Fyrirlestur 5.1: Skalanleg vefhönnun](05.1.responsive.md), [vídeó (xx:yy)](https://youtu.be/)
 
-[Fyrirlestur 5.2: Hönnun](05.2.design.md), [vídeó (xx:yy)](https://youtu.be/)
+[Fyrirlestur 5.2: Grid](05.2.grid.md), [vídeó (xx:yy)](https://youtu.be/)
 
-[Fyrirlestur 5.3: Grid](05.3.design.md), [vídeó (xx:yy)](https://youtu.be/)
+[Fyrirlestur 5.3: Hönnun](05.3.design.md), [vídeó (xx:yy)](https://youtu.be/)
 
 [Fyrirlestur 5.4: Kvikun](05.4.animation.md), [vídeó (xx:yy)](https://youtu.be/)
 
@@ -25,49 +23,66 @@
 
 [Skoða dæmi á vef](https://vefforritun.github.io/vef1-2021/vikur/05/)
 
-* Skalanleg vefhönnun
-  * [Grid](daemi/1.rwd/01.grid.html)
-  * [Responsive `object-fit`](daemi/1.rwd/02.object-fit-rwd.html)
-  * [Aspect ratio](daemi/1.rwd/03.aspect-ratio.html)
-  * [Media queries](daemi/1.rwd/04.mq.html)
-  * [Responsive grid](daemi/1.rwd/05.grid-rwd.html)
-  * [media queries & grind — mobile first](daemi/1.rwd/06.grid-rwd-mobile-first.html)
-  * [&lt;picture>](daemi/1.rwd/07.picture.html)
-  * [Responsive](daemi/1.rwd/08.rwd.html)
-* Kvikun
-  * [Animation](daemi/animation/animation.html)
-  * [Animation 2](daemi/animation/animation2.html)
-  * [Hamburger menu](daemi/animation/hamburger.html)
-  * [Pulse](daemi/animation/pulse.html)
-  * [Timing](daemi/animation/timing.html)
-  * [Transform](daemi/animation/transform.html)
-  * [Transition](daemi/animation/transition.html)
-  * [Perspective]
-* Hönnun
-  * [Alignment](daemi/design/alignment.html)
-  * [Contrast](daemi/design/contrast.html)
-  * [Proximity](daemi/design/proximity.html)
-  * [Vertical rhythm](daemi/design/vertical-rhythm.html)
-
-## Ítarefni
-
 ### Skalanleg vefhönnun
 
-* [A Dao of Web Design](http://alistapart.com/article/dao)
-* [Embed Responsively](http://embedresponsively.com/)
-* [MDN: Using media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
-* [The anatomy of responsive images](https://jakearchibald.com/2015/anatomy-of-responsive-images/)
+* [Grid](daemi/1.rwd/01.grid.html)
+* [Responsive `object-fit`](daemi/1.rwd/02.object-fit-rwd.html)
+* [Aspect ratio](daemi/1.rwd/03.aspect-ratio.html)
+* [Media queries](daemi/1.rwd/04.mq.html)
+* [Responsive grid](daemi/1.rwd/05.grid-rwd.html)
+* [media queries & grind — mobile first](daemi/1.rwd/06.grid-rwd-mobile-first.html)
+* [&lt;picture>](daemi/1.rwd/07.picture.html)
+* [Responsive](daemi/1.rwd/08.rwd.html)
+* [Flexbox Responsive Grid](daemi/1.rwd/09.flex-rwd.html)
+
+### Grid
+
+* [Grid](daemi/2.grid/01.grid-basic.html)
+* [Jen Simmons: Intro to CSS grid](https://labs.jensimmons.com/#intro-grid)
+* [Flexbox grid útfært með CSS grid](daemi/2.grid/02.grid.html)
+* [Responsive CSS grid](daemi/2.grid/03.grid.html)
+
+### Hönnun
+
+* [Alignment](daemi/3.design/01.alignment.html)
+* [Proximity](daemi/3.design/02.proximity.html)
+* [Contrast](daemi/3.design/03.contrast.html)
 
 ### Kvikun
 
+* [transition dæmi](daemi/4.animation/01.transition.html)
+* [Dæmi um hröðunarföll](daemi/4.animation/02.timing.html)
+* [Dæmi um animation sem hreyfir texta](daemi/4.animation/03.animation.html)
+* [animation til að útbúa þrvítt spjald](daemi/4.animation/04.animation2.html)
+* [Transform dæmi](daemi/4.animation/05.transform.html)
+* [Animation og transform](daemi/4.animation/07.pulse.html)
+* [„Hamborgara“ valmynd](daemi/4.animation/08.hamburger.html)
+* [Transition á variable fonts](daemi/4.animation/09.variable-font.html)
+* [Transition á clip-path](daemi/4.animation/10.clip-path.html)
+
+## Aukaefni
+
+* [A List Apart: Responsive Web Design](http://alistapart.com/article/responsive-web-design)
+* [Figma](https://www.figma.com/)
+
+## Verkefni vikunnar
+
+* [ ] Lesa [A List Apart: Responsive Web Design](http://alistapart.com/article/responsive-web-design)
+* [ ] Bera saman „[flexbox margin grid](daemi/1.rwd/09.flex-rwd.html)“ og „[css grid](daemi/2.grid/04.grid-rwd.html)“ dæmi til að skoða muninn á hvernig við getum útfært grid
+* [ ] Skrá sig á [Figma](https://www.figma.com/) og [skoða hönnunarkerfi Stafræns Ísland](https://www.figma.com/@islandis)
+* [ ] Skila [verkefni 4](https://github.com/vefforritun/vef1-2021-v4)
+* [ ] Byrja á [verkefni 5](https://github.com/vefforritun/vef1-2021-v5)
+
+## Ítarefni
+
+* [A Dao of Web Design](http://alistapart.com/article/dao)
+* [MDN: Using media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
+* [The anatomy of responsive images](https://jakearchibald.com/2015/anatomy-of-responsive-images/)
 * [An Interactive Guide to CSS Transitions](https://www.joshwcomeau.com/animation/css-transitions/)
 * [MDN: Easing function](https://developer.mozilla.org/en-US/docs/Web/CSS/easing-function)
 * [MDN: Using CSS transforms](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transforms/Using_CSS_transforms)
 * [MDN: animation-fill-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode)
 * [How CSS Perspective Works](https://css-tricks.com/how-css-perspective-works/)
-
-### Hönnun
-
 * [The Non-Designer's Design Book](https://www.goodreads.com/book/show/41597.The_Non_Designer_s_Design_Book) eftir Robin Williams
 * [The Design of Everyday Things](https://www.goodreads.com/book/show/840.The_Design_of_Everyday_Things) eftir Donald A. Norman
 * [Web Typography](http://book.webtypography.net/) eftir Richard Rutter

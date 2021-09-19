@@ -61,6 +61,8 @@ Fyrirlestrar eru haldnir 15:00-17:20 á mánudögum. Upptökur af öllum fyrirle
   * CSS; box model; specificity og cascade; visual formatting
 * [Vika 4, 13.–19. september 2021](vikur/04/)
   * Letur & litir; CSS virkni & stuðningur; Flexbox
+* [Vika 5, 20.–26. september 2021](vikur/05/)
+  * Skalanlegir vefir; hönnun; grid; kvikun
 
 ## Verkefni
 
@@ -75,13 +77,18 @@ Verkefni eru sett fyrir í fyrirlestri á mánudegi og skal skila fyrir lok þri
   * [Sýnilausn](https://github.com/vefforritun/vef1-2021-v2-synilausn)
 * [Verkefni 3 (CSS #1)](https://github.com/vefforritun/vef1-2021-v3), sett fyrir 6. september, skilist ~14.~ 16. september.
   * [Kynning í fyrirlestri](https://youtu.be/_q1B4EHQzgQ)
+  * [Sýnilausn](https://github.com/vefforritun/vef1-2021-v3-synilausn)
 * [Verkefni 4 (CSS #2)](https://github.com/vefforritun/vef1-2021-v4), sett fyrir 13. september, skilist 21. september.
   * [Kynning í fyrirlestri](https://youtu.be/Nw7FkpJl-Xo)
+  * [Sýnilausn](https://github.com/vefforritun/vef1-2021-v4-synilausn), gerð aðgengileg föstudaginn 24. september.
+* [Verkefni 5 (CSS #3)](https://github.com/vefforritun/vef1-2021-v4), sett fyrir 20. september, skilist 28. september.
+  * [Kynning í fyrirlestri](https://youtu.be/)
+  * [Sýnilausn](https://github.com/vefforritun/vef1-2021-v5-synilausn), gerð aðgengileg föstudaginn 1. október.
 
 ### Hópverkefni
 
-* Hópverkefni 1, sett fyrir í viku 6 (27. september–3. október), skilist í viku 10 (18.–24. október).
-* Hópverkefni 2, sett fyrir í viku 10 (25.–31. október), skilist í viku 14 (22.–28. nóvember).
+* Hópverkefni 1, sett fyrir í viku 7 (4.–10. október), skilist í viku 10 (18.–24. október).
+* Hópverkefni 2, sett fyrir í viku 11 (1.–7. nóvember), skilist í viku 14 (22.–28. nóvember).
 
 ## Dæmatímar
 
