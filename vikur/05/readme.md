@@ -11,13 +11,13 @@
 
 ## Fyrirlestrar
 
-[Fyrirlestur 5.1: Skalanleg vefhönnun](05.1.responsive.md), [vídeó (xx:yy)](https://youtu.be/)
+[Fyrirlestur 5.1: Skalanleg vefhönnun](05.1.responsive.md), [vídeó (42:48)](https://youtu.be/bnBBVJKhidY)
 
-[Fyrirlestur 5.2: Grid](05.2.grid.md), [vídeó (xx:yy)](https://youtu.be/)
+[Fyrirlestur 5.2: Grid](05.2.grid.md), [vídeó (31:40)](https://youtu.be/XkqCpt_Ob-w)
 
-[Fyrirlestur 5.3: Hönnun](05.3.design.md), [vídeó (xx:yy)](https://youtu.be/)
+[Fyrirlestur 5.3: Hönnun](05.3.design.md), [vídeó (22:19)](https://youtu.be/YDZ8K1hCJ5I)
 
-[Fyrirlestur 5.4: Kvikun](05.4.animation.md), [vídeó (xx:yy)](https://youtu.be/)
+[Fyrirlestur 5.4: Kvikun](05.4.animation.md), [vídeó (18:46)](https://youtu.be/5Fc_k_577XE)
 
 ## Dæmi
 
