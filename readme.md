@@ -87,7 +87,7 @@ Verkefni eru sett fyrir í fyrirlestri á mánudegi og skal skila fyrir lok þri
   * [Kynning í fyrirlestri](https://youtu.be/mo0OFSHH5HI)
   * [Sýnilausn](https://github.com/vefforritun/vef1-2021-v5-synilausn), gerð aðgengileg föstudaginn 1. október.
 * [Verkefni 6 (CSS #4)](https://github.com/vefforritun/vef1-2021-v6), sett fyrir 27. september, skilist 5. október.
-  * [Kynning í fyrirlestri](https://youtu.be/)
+  * [Kynning í fyrirlestri](https://youtu.be/gDeKrPH7KQM)
   * [Sýnilausn](https://github.com/vefforritun/vef1-2021-v6-synilausn), gerð aðgengileg föstudaginn 8. október.
 
 ### Hópverkefni

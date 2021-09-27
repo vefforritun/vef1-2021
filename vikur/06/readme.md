@@ -9,11 +9,11 @@
 
 ## Fyrirlestrar
 
-[Fyrirlestur 6.1: CSS í stærri verkefnum](06.1.css-verkefni.md), [vídeó (xx:yy)](https://youtu.be/)
+[Fyrirlestur 6.1: CSS í stærri verkefnum](06.1.css-verkefni.md), [vídeó (37:19)](https://youtu.be/APdJPgGQgPs)
 
-[Fyrirlestur 6.2: Node.js og NPM](06.2.npm.md), [vídeó (xx:yy)](https://youtu.be/)
+[Fyrirlestur 6.2: Node.js og NPM](06.2.npm.md), [vídeó (38:18)](https://youtu.be/dHoI_06kpYQ)
 
-[Fyrirlestur 6.3: Sass og stylelint](06.3.sass-stylelint.md), [vídeó (xx:yy)](https://youtu.be/)
+[Fyrirlestur 6.3: Sass og stylelint](06.3.sass-stylelint.md), [vídeó (37:15)](https://youtu.be/_184gHVUEcA)
 
 ## Dæmi
 
@@ -28,7 +28,7 @@
 
 * [BEM](http://getbem.com/) – _Block Element Modifier_
 * [CSS Tricks: BEM 101](https://css-tricks.com/bem-101/) fer nánar út í hvað BEM er.
-* [Atomic design_](https://bradfrost.com/blog/post/atomic-web-design/)
+* [Atomic design](https://bradfrost.com/blog/post/atomic-web-design/)
 * [node.js](http://nodejs.org/download)
 * [`browser-sync`](https://www.browsersync.io/)
 * [Sass](http://sass-lang.com/), _Syntactically Awesome Style Sheets._
