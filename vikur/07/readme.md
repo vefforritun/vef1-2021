@@ -1,21 +1,46 @@
 # Vika 7, 4.–10. október 2021
 
-**Þessi vikuáætlun hefur ekki verið uppfærð, hér er aðeins afrit frá [vefforritun 1, 2020](https://github.com/vefforritun/vef1-2020).**
+## Lesefni
+
+* [Pro Git: Kafli 1](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
+* [Pro Git: Kafli 2](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
+* [Pro Git: Kafli 3](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
+* [Pro Git: Kafli 6, undirkaflar 6.1, 6.2 og 6.3](https://git-scm.com/book/en/v2/GitHub-Account-Setup-and-Configuration)
+* [Pro Git: Kafli 7, undirkaflar 7.3 og 7.7](https://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning)
 
 ## Fyrirlestrar
 
-[Fyrirlestur 7.1: Git](07.1.git.md), [vídeó](https://youtu.be/0TOnybIUYxE)
+[Fyrirlestur 7.1: Git](07.1.git.md), [vídeó](https://youtu.be/)
 
-[Fyrirlestur 7.2: GitHub](07.2.github.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 7.2: GitHub og Netlify](07.2.github.md), [vídeó](https://youtu.be/)
+
+Fyrirlestur 7.3: Gestafyrirlestur, [vídeó](https://youtu.be/)
 
 ## Dæmi
 
+[Sass verkefni á Netlify](https://github.com/vefforritun/vef1-2021-netlify-synidaemi)
+
+## Aukaefni
+
+* [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
+
+## Verkefni
+
+* [ ] [Setja upp Git](https://git-scm.com/download/)
+* [ ] Búa til aðgang hjá GitHub
+* [ ] Búa til aðgang hjá Netlify
+* [ ] _Clonea_ [Sass verkefni á Netlify](https://github.com/vefforritun/vef1-2021-netlify-synidaemi) sýnidæmi og setja upp á GitHub og Netlify
+* [ ] Skila [verkefni 6](https://github.com/vefforritun/vef1-2021-v5)
+* [ ] Byrja á [hópverkefni 1](https://github.com/vefforritun/vef1-2021-h1)
+
 ## Ítarefni
 
+* [island.is GitHub repo, Conventional commits](https://github.com/island-is/island.is/commits/main)
 * [GitHub Guides](https://guides.github.com/)
   * [Understanding the GitHub Flow](https://guides.github.com/introduction/flow/)
   * [Getting your project on GitHub](https://guides.github.com/introduction/getting-your-project-on-github/)
   * [Fork a repo](https://help.github.com/articles/fork-a-repo/)
 * [GitHub Desktop](https://desktop.github.com/)
   * GUI tól til að vinna með repos á GitHub
-
+* [Netlify docs](https://docs.netlify.com/)
+* [`cpy-cli`](https://www.npmjs.com/package/cpy-cli)
