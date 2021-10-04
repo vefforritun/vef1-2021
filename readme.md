@@ -67,6 +67,8 @@ Fyrirlestrar eru haldnir 15:00-17:20 á mánudögum. Upptökur af öllum fyrirle
   * node.js & npm; Sass og stylelint; CSS í stærri verkefnum
 * [Vika 7, 4.–10. október 2021](vikur/07)
   * Git, GitHub, Netlify. Gestafyrirlestur.
+* [Vika 8, 11.–17. október 2021](vikur/08)
+  * Fyrirlestur fellur niður.
 
 ## Verkefni
 
@@ -95,6 +97,7 @@ Verkefni eru sett fyrir í fyrirlestri á mánudegi og skal skila fyrir lok þri
 ### Hópverkefni
 
 * [Hópverkefni 1](https://github.com/vefforritun/vef1-2021-h1), sett fyrir 4. október, skilist 22. október.
+  * [Kynning í fyrirlestri](https://youtu.be/IilN9cXavpg)
 * Hópverkefni 2, sett fyrir í viku 11 (1.–7. nóvember), skilist í viku 14 (22.–28. nóvember).
 
 ## Dæmatímar

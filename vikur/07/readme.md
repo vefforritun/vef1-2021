@@ -10,11 +10,11 @@
 
 ## Fyrirlestrar
 
-[Fyrirlestur 7.1: Git](07.1.git.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 7.1: Git](07.1.git.md), [vídeó (50:36)](https://youtu.be/BfGgWsY5tk8)
 
-[Fyrirlestur 7.2: GitHub og Netlify](07.2.github.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 7.2: GitHub og Netlify](07.2.github-netlify.md), [vídeó (30:12)](https://youtu.be/n66IZdnI_sQ)
 
-Fyrirlestur 7.3: Gestafyrirlestur, [vídeó](https://youtu.be/)
+Fyrirlestur 7.3: Gestafyrirlestur
 
 ## Dæmi
 
