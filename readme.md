@@ -14,11 +14,11 @@ Hér má nálgast alla fyrirlestra, dæmi og verkefni í áfangagnum vefforritun
 |  6   | 27. september | node.js & npm; Sass og stylelint; CSS í stærri verkefnum          | CSS #4                | CSS #3               |
 |  7   |  4. október   | Git, GitHub, Netlify                                              | Hópverkefni 1         | CSS #4               |
 |  8   | 11. október   | **Engin fyrirlestur**                                             |                       |                      |
-|  9   | 18. október   | JavaScript: breytur, stýriskipanir, föll, fylki, hlutir           | JS #1                 |                      |
-|  10  | 25. október   | Einingar; forritun á vef: DOM og atburðir                         | JS #2                 | JS #1, Hópverkefni 1 |
+|  9   | 18. október   | JavaScript: breytur, stýriskipanir, föll,                         | JS #1                 |                      |
+|  10  | 25. október   | Fylki, hlutir; Einingar; forritun á vef: DOM og atburðir          | JS #2                 | JS #1, Hópverkefni 1 |
 |  11  |  1. nóvember  | Villumeðhöndlun & reglulegar segðir; Ósamstillt forritun          | JS #3, Hópverkefni 2  | JS #2                |
 |  12  |  8. nóvember  | HTTP og form; Ajax; tæki og tól                                   | JS #4                 | JS #3                |
-|  13  | 15. nóvember  | Hlutir; fallaforritun; HTML5 og JS                                |                       | JS #4                |
+|  13  | 15. nóvember  | Hlutir; fallaforritun; HTML5 og Web APIs                          |                       | JS #4                |
 |  14  | 22. nóvember  | Samantekt og upprifjun, upplýsingar um lokapróf                   |                       | Hópverkefni 2        |
 
 Nánar er farið yfir kennsluáætlun í [fyrirlestri 1.1](./vikur/01/01.1.kynning.md) í [viku 1](./vikur/01/).
@@ -69,6 +69,8 @@ Fyrirlestrar eru haldnir 15:00-17:20 á mánudögum. Upptökur af öllum fyrirle
   * Git, GitHub, Netlify. Gestafyrirlestur.
 * [Vika 8, 11.–17. október 2021](vikur/08)
   * Fyrirlestur fellur niður.
+* [Vika 9, 18.–24. október 2021](vikur/09)
+  * JavaScript: breytur, stýriskipanir, föll, fylki, hlutir
 
 ## Verkefni
 
@@ -93,12 +95,15 @@ Verkefni eru sett fyrir í fyrirlestri á mánudegi og skal skila fyrir lok þri
 * [Verkefni 6 (CSS #4)](https://github.com/vefforritun/vef1-2021-v6), sett fyrir 27. september, skilist 5. október.
   * [Kynning í fyrirlestri](https://youtu.be/gDeKrPH7KQM)
   * [Sýnilausn](https://github.com/vefforritun/vef1-2021-v6-synilausn), gerð aðgengileg föstudaginn 8. október.
+* [Verkefni 7 (JS #1)](https://github.com/vefforritun/vef1-2021-v7), sett fyrir 18. október, skilist 26. október.
+  * [Kynning í fyrirlestri](https://youtu.be/)
+  * [Sýnilausn](https://github.com/vefforritun/vef1-2021-v7-synilausn), gerð aðgengileg föstudaginn 29. október.
 
 ### Hópverkefni
 
-* [Hópverkefni 1](https://github.com/vefforritun/vef1-2021-h1), sett fyrir 4. október, skilist 22. október.
+* [Hópverkefni 1](https://github.com/vefforritun/vef1-2021-h1), sett fyrir 4. október, skilist 29. október.
   * [Kynning í fyrirlestri](https://youtu.be/IilN9cXavpg)
-* Hópverkefni 2, sett fyrir í viku 11 (1.–7. nóvember), skilist í viku 14 (22.–28. nóvember).
+* [Hópverkefni 1](https://github.com/vefforritun/vef1-2021-h2), sett fyrir 1. nóvember, skilist 26. nóvember.
 
 ## Dæmatímar
 

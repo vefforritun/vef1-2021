@@ -14,6 +14,17 @@
 
 [Skoða „lifandi“ dæmi](https://vefforritun.github.io/vef1-2021/vikur/10/)
 
+
+### Array & objects
+
+* [array](daemi/array.objects/array.js)
+* [destructuring](daemi/array.objects/destructuring.js)
+* [object-properties](daemi/array.objects/object-properties.js)
+* [object](daemi/array.objects/object.js)
+* [rest](daemi/array.objects/rest.js)
+* [spread](daemi/array.objects/spread.js)
+* [typeof-array](daemi/array.objects/typeof-array.js)
+
 * Modules
   * [calculator](daemi/modules/calculator.js)
   * [modules](daemi/modules/modules.js)

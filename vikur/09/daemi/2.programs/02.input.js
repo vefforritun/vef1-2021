@@ -8,6 +8,6 @@ const result = confirm('Á að gera þetta?');
 console.log(result);
 
 // og síðast er beðið um nafn
-const name = prompt('Hvað heitir þú?');
+const answer = prompt('Hvað heitir þú?');
 
-console.log(name);
+console.log(answer);

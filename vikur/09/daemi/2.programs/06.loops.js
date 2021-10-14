@@ -11,11 +11,11 @@ do {
 // 1, 2, 3, 4, 5
 
 // svo lengi sem við fáum ekki truthy gildi munum við verða spurð um nafn
-let name;
+let answer;
 do {
-  name = prompt('Who are you?');
-} while (!name);
-console.log(name);
+  answer = prompt('Who are you?');
+} while (!answer);
+console.log(answer);
 
 for (let k = 0; k < 100; k++) {
   // continue leyfir okkur að byrja ítrun aftur

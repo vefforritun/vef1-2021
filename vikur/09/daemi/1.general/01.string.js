@@ -1,3 +1,15 @@
+/* comment */
+
+// comment
+
+/* má
+  /* ekki nesta
+  -> <- fáum syntax villu ef við setjum aðra lokun hér
+*/
+
+// console.log er leið til að skrifa í _console_
+// virkar bæði í vafra og nodejs
+
 console.log('Halló, heimur!'); // Halló, heimur!
 
 console.log("Halló, heimur!"); // Halló, heimur!
