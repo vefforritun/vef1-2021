@@ -56,22 +56,28 @@
   * [ ] Í vafra með því að afrita inn í console undir devtools
   * [ ] Í nodejs túlk
 * [ ] Byrja á [verkefni 7](https://github.com/vefforritun/vef1-2021-v7)
-* [ ] Halda áfram með[hópverkefni 1](https://github.com/vefforritun/vef1-2021-h1)
+* [ ] Halda áfram með [hópverkefni 1](https://github.com/vefforritun/vef1-2021-h1)
 
 ## Ítarefni
 
 * [ECMAScript](https://en.wikipedia.org/wiki/ECMAScript)
 * [JavaScript 1.1 specification](http://hepunx.rl.ac.uk/~adye/jsspec11/intro.htm#1006028)
+* [Tafla með stuðning á virkni í JavaScript túlkum](https://kangax.github.io/compat-table/es2016plus/)
+* [`TC39`](https://tc39.es/)
+* [ECMAScript proposals](https://github.com/tc39/proposals)
 * [`console`](https://developer.mozilla.org/en-US/docs/Web/API/console)
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
-* [_gildi_ hafa týpu](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
-* [_primitive wrapper_](https://developer.mozilla.org/en-US/docs/Glossary/Primitive#primitive_wrapper_objects_in_javascript)
+* [JavaScript data types and data structures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
+* [Primitive wrapper objects in JavaScript](https://developer.mozilla.org/en-US/docs/Glossary/Primitive#primitive_wrapper_objects_in_javascript)
+* [Double-precision floating-point format](https://en.wikipedia.org/wiki/Double-precision_floating-point_format#Precision_limitations_on_integer_values)
 * [`number`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#number_type)
 * [`NaN`](https://developer.mozilla.org/en-US/docs/Glossary/NaN)
 * [`BigInt`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#bigint_type)
 * [`Number.isFinite()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isFinite)
 * [`Number.parseInt(str, radix)`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/parseInt)
 * [`Number.parseFloat(str)`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/parseFloat)
+* [`radix`](https://en.wikipedia.org/wiki/Radix)
+* [Standard built-in objects]((https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects))
 * [`Math`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
 * [`Date`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
+* [Unix time](https://en.wikipedia.org/wiki/Unix_time)
 * [Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)

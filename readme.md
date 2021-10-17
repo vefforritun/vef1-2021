@@ -113,6 +113,8 @@ Sjá á Uglu og Canvas síðum námskeiðis.
 
 ## Lokapróf
 
+Lokapróf verður haldið þriðjudaginn 7. desember kl. 13:30–16:30.
+
 Nánari upplýsingar síðar.
 
 [Um lokapróf í vefforritun 1, árið 2020](./vikur/13/13.5.lokaprof.md). Ekki ljóst hvernig form á lokaprófi verður: staðpróf eða fjarpróf.
