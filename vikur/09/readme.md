@@ -9,11 +9,11 @@
 
 ## Fyrirlestrar
 
-[Fyrirlestur 9.1: JavaScript gildi, týpur og virkjar](09.1.javascript.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 9.1: JavaScript gildi, týpur og virkjar](09.1.javascript.md), [vídeó (50:24)](https://youtu.be/xSWnpiCGl5A)
 
-[Fyrirlestur 9.2: JavaScript forrit](09.2.programs.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 9.2: JavaScript forrit](09.2.programs.md), [vídeó (29:29)](https://youtu.be/B8usgokb3SI)
 
-[Fyrirlestur 9.3: JavaScript föll](09.3.functions.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 9.3: JavaScript föll](09.3.functions.md), [vídeó (26:47)](https://youtu.be/-ePYXDXT4-o)
 
 ## Dæmi
 
