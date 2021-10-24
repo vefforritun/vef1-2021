@@ -16,14 +16,14 @@
     <div class="second">Box #2</div>
 
     <script>
-    /* Hér væri samt betra að nota CSS og breyta class! */
     const box1 = document.querySelector('.first');
-    const box2 = document.querySelector('.second');
 
     box1.style.border = '2px solid #000';
     box1.style.padding = '20px';
     box1.style.backgroundColor = 'lightblue';
 
+    // Þetta er betri leið!
+    const box2 = document.querySelector('.second');
     box2.classList.add('box');
     </script>
   </body>

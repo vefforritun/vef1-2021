@@ -18,6 +18,7 @@ console.log(a['1%-foo']); // undefined
 // console.log(a.1%-foo); // SyntaxError
 
 console.log(a.toUpperCase()); // "HELLO WORLD"
+console.log(a['toUpperCase']()); // "HELLO WORLD"
 
 const foo = [0, 1, 2];
 console.log(foo[0]); // 0

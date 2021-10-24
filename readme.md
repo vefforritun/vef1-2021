@@ -71,6 +71,8 @@ Fyrirlestrar eru haldnir 15:00-17:20 á mánudögum. Upptökur af öllum fyrirle
   * Fyrirlestur fellur niður.
 * [Vika 9, 18.–24. október 2021](vikur/09)
   * JavaScript: breytur, stýriskipanir, föll
+* [Vika 10, 25.31. október 2021](vikur/10)
+  * Fylki, hlutir; Einingar; forritun á vef: DOM og atburðir 
 
 ## Verkefni
 
@@ -98,6 +100,9 @@ Verkefni eru sett fyrir í fyrirlestri á mánudegi og skal skila fyrir lok þri
 * [Verkefni 7 (JS #1)](https://github.com/vefforritun/vef1-2021-v7), sett fyrir 18. október, skilist 26. október.
   * [Kynning í fyrirlestri](https://youtu.be/QAqqTQQL9eM)
   * [Sýnilausn](https://github.com/vefforritun/vef1-2021-v7-synilausn), gerð aðgengileg föstudaginn 29. október.
+* [Verkefni 8 (JS #1)](https://github.com/vefforritun/vef1-2021-v8), sett fyrir 25. október, skilist 4. nóvember.
+  * [Kynning í fyrirlestri](https://youtu.be/)
+  * [Sýnilausn](https://github.com/vefforritun/vef1-2021-v8-synilausn), gerð aðgengileg föstudaginn 5. nóvember.
 
 ### Hópverkefni
 
