@@ -68,7 +68,6 @@
 .reveal .wall-of-text { font-size: 0.55em; }
 
 .reveal pre { width: 100%; margin: 0; line-height: 1.2em; font-size: 0.9em; height: auto; }
-.reveal pre code { max-height: none; }
 
 .reveal img.fill { width: 100%; }
 .reveal li img { max-height: 100%; margin: 0; display: inline; }
@@ -94,3 +93,6 @@
 .reveal .boxes h2, .reveal .boxes h3, .reveal .boxes h4 { margin: 0; padding: 0; }
 
 .reveal iframe { width: 100%; }
+
+.reveal li code, .reveal p code { padding-inline: 2px; background-color: rgba(128, 128, 128, 0.1); border-radius: 5px; }
+.reveal pre code { background-color: none; max-height: none; }

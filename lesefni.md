@@ -73,10 +73,10 @@
 * Vika #11
   * [Eloquent JavaScript, kafli 8: Bugs and Errors](https://eloquentjavascript.net/08_error.html)
   * [Eloquent JavaScript, kafli 9: Regular Expressions](https://eloquentjavascript.net/09_regexp.html)
-* Vika #12
   * [Eloquent JavaScript, kafli 18: HTTP and Forms](https://eloquentjavascript.net/18_http.html)
+* Vika #12
+  * [Eloquent JavaScript, kafli 5: Higher-order Functions](https://eloquentjavascript.net/05_higher_order.html)
   * [Resilient Web Design, chapter 7: Challenges](https://resilientwebdesign.com/chapter7/)
 * Vika #13
-  * [Eloquent JavaScript, kafli 5: Higher-order Functions](https://eloquentjavascript.net/05_higher_order.html)
   * [Eloquent JavaScript, kafli 6: The Secret Life of Objects](https://eloquentjavascript.net/06_object.html)
   * [Eloquent JavaScript, kafli 17: Drawing on Canvas](https://eloquentjavascript.net/17_canvas.html)

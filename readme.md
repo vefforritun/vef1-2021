@@ -100,8 +100,8 @@ Verkefni eru sett fyrir í fyrirlestri á mánudegi og skal skila fyrir lok þri
 * [Verkefni 7 (JS #1)](https://github.com/vefforritun/vef1-2021-v7), sett fyrir 18. október, skilist 26. október.
   * [Kynning í fyrirlestri](https://youtu.be/QAqqTQQL9eM)
   * [Sýnilausn](https://github.com/vefforritun/vef1-2021-v7-synilausn), gerð aðgengileg föstudaginn 29. október.
-* [Verkefni 8 (JS #1)](https://github.com/vefforritun/vef1-2021-v8), sett fyrir 25. október, skilist 4. nóvember.
-  * [Kynning í fyrirlestri](https://youtu.be/)
+* [Verkefni 8 (JS #2)](https://github.com/vefforritun/vef1-2021-v8), sett fyrir 25. október, skilist 4. nóvember.
+  * [Kynning í fyrirlestri](https://youtu.be/5GAg9Olchf8)
   * [Sýnilausn](https://github.com/vefforritun/vef1-2021-v8-synilausn), gerð aðgengileg föstudaginn 5. nóvember.
 
 ### Hópverkefni

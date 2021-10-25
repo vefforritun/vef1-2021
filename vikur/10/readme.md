@@ -11,13 +11,13 @@
 
 ## Fyrirlestrar
 
-[Fyrirlestur 10.1: JavaScript array og objects](10.1.array.objects.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 10.1: JavaScript array og objects](10.1.array.objects.md), [vídeó (30:55)](https://youtu.be/mL3H9OMt0yc)
 
-[Fyrirlestur 10.2: DOM & vafrinn](10.2.browser-dom.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 10.2: DOM & vafrinn](10.2.browser-dom.md), [vídeó, part 1 (18:21)](https://youtu.be/9gQRDjFvdFU), [vídeó, part 2 (32:45)](https://youtu.be/PaG9Y1bJb98)
 
-[Fyrirlestur 10.3: Atburðir](10.3.events.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 10.3: Atburðir](10.3.events.md), [vídeó (27:07)](https://youtu.be/f5joXJe9u68)
 
-[Fyrirlestur 10.4: Einingar](10.4.modules.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 10.4: Einingar](10.4.modules.md), [vídeó (14:31)](https://youtu.be/IVYaolPwKjs)
 
 ## Dæmi
 
