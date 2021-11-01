@@ -8,13 +8,13 @@
 
 ## Fyrirlestrar
 
-[Fyrirlestur 11.1: Ósamstillt forritun](11.1.async.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 11.1: Ósamstillt forritun](11.1.async.md), [vídeó (29:35)](https://youtu.be/QJsHkQHZrQw)
 
-[Fyrirlestur 11.2: HTTP og form](11.2.http-form.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 11.2: HTTP og form](11.2.http-form.md), [vídeó (16:24)](https://youtu.be/f0-GN_M67lc)
 
-[Fyrirlestur 11.3: Ajax](11.3.ajax.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 11.3: Ajax](11.3.ajax.md), [vídeó (47:57)](https://youtu.be/y2J8E-hqJrc)
 
-[Fyrirlestur 11.4: Eslint](11.4.eslint.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 11.4: Eslint & prettier](11.4.eslint.md), [vídeó (18:09)](https://youtu.be/VkYCfQDVxYE)
 
 ## Dæmi
 

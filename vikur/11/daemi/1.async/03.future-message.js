@@ -1,6 +1,8 @@
 function futureMessage(msg) {
   return new Promise((resolve, reject) => {
-    if (msg === 'foo') reject(new Error('No foo allowed!'));
+    if (msg === 'foo') {
+      reject(new Error('No foo allowed!'));
+    }
 
     setTimeout(() => resolve(`${msg} from the future!`), 2000);
   });
@@ -17,11 +19,16 @@ futureMessage('foo')
 
 const p = futureMessage('hmm');
 
+/**
+ * Fall sem tekur við promise og bætir við `then` handler
+ */
 function foo(promise) {
   console.log(promise);
 
-  promise.then((msg) => console.log(msg));
+  // Þetta mun prenta út í console *seinna*
+  promise.then((msg) => console.log('foo:', msg));
 
+  // skilum þessu *núna*
   return 'Handling promise...';
 }
 

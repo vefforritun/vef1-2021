@@ -16,7 +16,7 @@ Hér má nálgast alla fyrirlestra, dæmi og verkefni í áfangagnum vefforritun
 |  8   | 11. október   | **Engin fyrirlestur**                                          |                       |                      |
 |  9   | 18. október   | JavaScript: breytur, stýriskipanir, föll,                      | JS #1                 |                      |
 |  10  | 25. október   | Fylki, hlutir; Einingar; forritun á vef: DOM og atburðir       | JS #2                 | JS #1, Hópverkefni 1 |
-|  11  |  1. nóvember  | Ósamstillt forritun; HTTP & form; Ajax; eslint                 | JS #3, Hópverkefni 2  | JS #2                |
+|  11  |  1. nóvember  | Ósamstillt forritun; HTTP & form; Ajax; eslint & prettier      | JS #3, Hópverkefni 2  | JS #2                |
 |  12  |  8. nóvember  | Tæki & tól; Villumeðhöndlun & reglulegar segðir; Fallaforritun | JS #4                 | JS #3                |
 |  13  | 15. nóvember  | Hlutir; HTML5 og Web APIs; Testing                             |                       | JS #4                |
 |  14  | 22. nóvember  | Samantekt og upprifjun, upplýsingar um lokapróf                |                       | Hópverkefni 2        |
@@ -75,6 +75,8 @@ Fyrirlestrar eru haldnir 15:00-17:20 á mánudögum. Upptökur af öllum fyrirle
   * Fylki, hlutir; Einingar; forritun á vef: DOM og atburðir
 * [Vika 11 1.–7. nóvember 2021](vikur/11)
   * Ósamstillt forritun; HTTP & form; Ajax; eslint
+* [Vika 12, 8.–15. nóvember 2021](vikur/12)
+  * Tæki & tól; Villumeðhöndlun & reglulegar segðir; Fallaforritun
 
 ## Verkefni
 
@@ -108,12 +110,16 @@ Verkefni eru sett fyrir í fyrirlestri á mánudegi og skal skila fyrir lok þri
 * [Verkefni 9 (JS #3)](https://github.com/vefforritun/vef1-2021-v9), sett fyrir 1. nóvember, skilist 11. nóvember.
   * [Kynning í fyrirlestri](https://youtu.be/)
   * [Sýnilausn](https://github.com/vefforritun/vef1-2021-v9-synilausn), gerð aðgengileg föstudaginn 12. nóvember.
+* [Verkefni 10 (JS #4)](https://github.com/vefforritun/vef1-2021-v9), sett fyrir 8. nóvember, skilist 18. nóvember.
+  * [Kynning í fyrirlestri](https://youtu.be/z-Z1u4FicgQ)
+  * [Sýnilausn](https://github.com/vefforritun/vef1-2021-v9-synilausn), gerð aðgengileg föstudaginn 19. nóvember.
 
 ### Hópverkefni
 
 * [Hópverkefni 1](https://github.com/vefforritun/vef1-2021-h1), sett fyrir 4. október, skilist 29. október.
   * [Kynning í fyrirlestri](https://youtu.be/IilN9cXavpg)
 * [Hópverkefni 1](https://github.com/vefforritun/vef1-2021-h2), sett fyrir 1. nóvember, skilist 26. nóvember.
+  * [Kynning í fyrirlestri](https://youtu.be/Alsi_j6skHY)
 
 ## Dæmatímar
 

@@ -16,8 +16,5 @@
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-import": "2.25.2",
     "prettier": "2.4.1"
-  },
-  "resolutions": {
-    "eslint-plugin-import": "2.25.2"
   }
 }
