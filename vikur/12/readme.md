@@ -7,11 +7,13 @@
 
 ## Fyrirlestrar
 
-[Fyrirlestur 12.1: Fallaforritun](12.1.functional.md), [vídeó](https://youtu.be/)
+Fyrirlestur féll niður vegna veikinda, upptökur eru frá fyrirlestrum í [vef1 árið 2020](https://github.com/vefforritun/vef1-2020).
 
-[Fyrirlestur 12.2: Villur og regex](12.2.errors.regex.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 12.1: Fallaforritun](12.1.functional.md), [vídeó úr fyrirlestri 11.1](https://youtu.be/baNMhgcqD04)
 
-[Fyrirlestur 12.3: Tæki og tól](12.3.tools.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 12.2: Villur og regex](12.2.errors.regex.md), [vídeó úr fyrirlestri 8.1 í vef1-2020](https://youtu.be/vl_G2uDAORI)
+
+[Fyrirlestur 12.3: Tæki og tól](12.3.tools.md), [vídeó úr fyrirlestri 10.3 í vef1-2020](https://youtu.be/ALaPtDXEdgY)
 
 ## Dæmi
 
@@ -35,8 +37,8 @@
 ## Verkefni
 
 * [ ] Skoða [sorting & filtering](daemi/2.functional/01.sorting-filtering.html) dæmi vel
-* [ ] Byrja á [verkefni 9](https://github.com/vefforritun/vef1-2021-v10)
-* [ ] Skila [verkefni 8](https://github.com/vefforritun/vef1-2021-v9)
+* [ ] Byrja á [verkefni 9](https://github.com/vefforritun/vef1-2021-v9)
+* [ ] Skila [verkefni 8](https://github.com/vefforritun/vef1-2021-v8)
 * [ ] Vinna í [hópverkefni 2](https://github.com/vefforritun/vef1-2021-h2)
 
 ## Ítarefni
