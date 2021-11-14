@@ -18,8 +18,8 @@ Hér má nálgast alla fyrirlestra, dæmi og verkefni í áfangagnum vefforritun
 |  10  | 25. október   | Fylki, hlutir; Einingar; forritun á vef: DOM og atburðir       | JS #2                 | JS #1, Hópverkefni 1 |
 |  11  |  1. nóvember  | Ósamstillt forritun; HTTP & form; Ajax; eslint & prettier      | JS #3, Hópverkefni 2  | JS #2                |
 |  12  |  8. nóvember  | Tæki & tól; Villumeðhöndlun & reglulegar segðir; Fallaforritun | JS #4                 | JS #3                |
-|  13  | 15. nóvember  | Hlutir; HTML5 og Web APIs; Testing                             |                       | JS #4                |
-|  14  | 22. nóvember  | Samantekt og upprifjun, upplýsingar um lokapróf                |                       | Hópverkefni 2        |
+|  13  | 15. nóvember  | Hlutir; HTML5 og Web APIs; Prófanir                            |                       | JS #4                |
+|  14  | 22. nóvember  | Samantekt og upprifjun; upplýsingar um lokapróf                |                       | Hópverkefni 2        |
 
 Nánar er farið yfir kennsluáætlun í [fyrirlestri 1.1](./vikur/01/01.1.kynning.md) í [viku 1](./vikur/01/).
 
@@ -77,6 +77,10 @@ Fyrirlestrar eru haldnir 15:00-17:20 á mánudögum. Upptökur af öllum fyrirle
   * Ósamstillt forritun; HTTP & form; Ajax; eslint
 * [Vika 12, 8.–15. nóvember 2021](vikur/12)
   * Tæki & tól; Villumeðhöndlun & reglulegar segðir; Fallaforritun
+* [Vika 13, 16.–21. nóvember 2021](vikur/13)
+  * Hlutir; HTML5 og Web APIs; Prófanir
+* [Vika 14, 22.–28. nóvember 2021](vikur/14)
+  * Samantekt og upprifjun; upplýsingar um lokapróf
 
 ## Verkefni
 
@@ -129,9 +133,7 @@ Sjá á Uglu og Canvas síðum námskeiðis.
 
 Lokapróf verður haldið þriðjudaginn 7. desember kl. 13:30–16:30.
 
-Nánari upplýsingar síðar.
-
-[Um lokapróf í vefforritun 1, árið 2020](./vikur/13/13.5.lokaprof.md). Ekki ljóst hvernig form á lokaprófi verður: staðpróf eða fjarpróf.
+Nánari upplýsingar í [fyrirlestri 14.4]((./vikur/14/14.4.lokaprof.md)).
 
 ## Að sækja þetta efni
 

@@ -6,8 +6,8 @@ module.exports = {
   ],
   overrides: [
     {
-        files: ["**/*.md"],
-        processor: "markdown/markdown"
+      files: ["**/*.md"],
+      processor: "markdown/markdown"
     },
   ],
   env: {
