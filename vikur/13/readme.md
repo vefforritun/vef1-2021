@@ -7,15 +7,19 @@
 
 ## Fyrirlestrar
 
-[Fyrirlestur 13.1: Hlutir](13.1.objects.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 13.1: Hlutir](13.1.objects.md), [vídeó (28:35)](https://youtu.be/wqQz9ETMEdg)
 
-[Fyrirlestur 13.2: Prófanir](13.2.testing.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 13.2: Prófanir](13.2.testing.md), [vídeó (44:56)](https://youtu.be/ukPMToSzFRc)
 
-[Fyrirlestur 13.3: JavaScript API í vafra](13.3.html5.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 13.3: JavaScript API í vafra](13.3.html5.md), [vídeó (32:47)](https://youtu.be/DAgWD7Nfjz8)
 
 ## Dæmi
 
-### Testing
+### Hlutir
+
+* [`this` dæmi](./daemi/1.objects/01.this.html)
+
+### Prófanir
 
 [Netlify CI dæmi](https://github.com/vefforritun/vef1-2021-netlify-ci)
 
