@@ -1,27 +1,30 @@
 # Spurningar og atriði til grundvallar lokaprófi í vefforritun 1, 2021
 
-Þetta er **óuppfærður** listi frá 2020, verður svipaður. Þessi listi verður uppfærður fyrir 2021 fyrir fyrirlestur 14, mánudaginn 22. nóvember 2021.
+Efni kemur aðallega úr viðfangsefni fyrirlestra og verkefnum.
 
 Skipt niður í:
 
 * **Mjög líkleg**, þessi atriði munu koma á lokaprófi, í fleiri en einni krossapurningu og mjög líkleg í „stærri spurningum“ til dæmis forritunar- og ritgerðarspurningum.
-* **Líklegt**, eitt eða fleiri af þessum atriðum mun líklega koma á lokaprófi, líklegar krossaspurningar.
-* **Ólíklegt**, ólíklegt að þessi atriði komi fyrir á lokaprófi, og ef svo er, munu ekki vera stórar spurningar. T.d. gæti verið ein eða tvær krossaspurningar tengdar þessu.
+* **Líklegt**, mun líklega koma á lokaprófi, líklegar krossaspurningar.
+* **Ólíklegt**, ólíklegt að þessi atriði komi fyrir á lokaprófi, og ef svo er, munu ekki vera stórar spurningar. T.d. gæti verið krossaspurning tengd þessu, eða partur af forritunar- og ritgerðarspurningum.
 * **Kemur ekki fyrir**, mun ekki koma beint fyrir á lokaprófi, þið gætuð þó nefnt þessi atriði í ritgerðarspurningum tengdum öðrum hugtökum eða atriðum.
+
+**ATH**, ef það verður gerð krafa um að beita ákveðnum hlutum (t.d. element, CSS eigindi, git aðgerðir, JavaScript föll tengd hlutum eins og array) mun vera gefinn listi af þeim, þið þurfið ekki að leggja á minnið, en vita hvernig þau virka og hvernig á að beita.
 
 ## Mjög líklegt
 
-* HTTP, sjá seinna
 * Framendi
   * Munur á framenda og bakenda
   * Tenging við HTTP
-* HTML!
-  * Elements, tags & attributes
-  * html, head, body
+* HTML
+  * Elements, tags og attributes
+  * `<html>`, `<head>`, `<body>`
+  * Tré
   * Helstu flokkar elementa og geta beitt rétt
-  * Global attributes eins og Id og class
+  * Global attributes eins og `id` og `class`
   * Listar, töflur, form
-  * ATH, ef það er gerð krafa um ákveðin element mun vera „tossalisti“ af þeim, þurfið ekki að leggja öll element og flokka þeirra á minnið
+* Vísað í efni
+  * Afstæðar og nákvæmar slóðir
 * Aðgengi
   * Hvað er
   * Af hverju
@@ -35,7 +38,8 @@ Skipt niður í:
   * Tenging við HTML
   * Reglusett
   * Selectors
-    * Gerðir, samtengingar
+    * Gerðir
+    * Samtengingar
   * Villumeðhöndlun í CSS
   * Gildi í CSS
   * Yfirlýsingar
@@ -43,6 +47,13 @@ Skipt niður í:
     * Hlutfallslegar einingar
     * Letur-hlutfallslegar einingar
     * Skjá-prósentu einingar
+  * Box model
+    * Margin
+    * Padding
+    * Border
+    * Width, height
+  * Specificity
+  * Cascade
 * Progressive enhancement
   * Fallback
   * Shim & polyfill
@@ -54,110 +65,119 @@ Skipt niður í:
     * Media queries
 * Git
   * Version control
+    * Af hverju
   * Repo
   * Hvað er git
   * Stöður í git
   * Skilja helstu skipanir í git
-    * Verður tossalisti ef spurt út í
   * Remotes
   * Branches
-  * GitHub
-* JavaScript!
+* GitHub
+  * Hvað er
+  * Hvernig notað í haust
+* Netlify
+  * Hvað er
+  * Hvernig notað í haust
+* JavaScript
   * Gildi og týpur
+    * string
     * number
       * Heiltölur og rauntölur
       * Helstu virkjar
-      * NaN
-    * string
-    * boolean
-    * undefined
-    * null
-    * samanburur
+      * `NaN`
+    * `boolean`
+    * `undefined`
+    * `null`
+    * Samanburður á gildum
     * truthy og falsy
+  * Virkjar
   * Semíkomma
   * Breytur
     * var, let, const
       * Munur
     * Dýnamískar breytur
   * Flæðistýringar & lykkjur
+    * `if`
+    * `while`
+    * `do..while`
+    * `for`
+    * `switch`
   * Föll
+    * Föll sem gildi
+    * Skilgreind VS nafnlaus (anonymous)
     * Scopes
     * Arrow functions
-    * Færibreytur
+    * Færibreytur (parameters)
     * Innri föll
-    * Closures
+    * Lokanir (closures)
   * Fylki og hlutir
     * Dot notation, bracket notation
     * Properties
     * Geta lesið úr fylkjum og notað helstu föll
-      * Verður tossalisti ef spurt út í
-* Async forritun
-  * Callbacks
-    * setTimout, setInterval
-  * Promises
-    * then, catch
-    * async, await
-* JS og vafrinn
   * DOM
     * Tenging við HTML
     * Kostir og gallar
     * Skilja helstu föll
-      * querySelector
-      * querySelectorAll
-      * Breyta, bæta við og fjarlægja úr DOM
-    * Verður tossalisti ef spurt út í
+      * `querySelector`
+      * `querySelectorAll`
+      * Finna, breyta, bæta við og fjarlægja úr DOM
+    * Attributes
     * CSS og JavaScript með classList
+    * Form tengingar
   * Atburðir
     * Taka þátt í atburðum
       * addEventListener
       * Upplýsingar um atburð
-    * Mismunur
-    * DOMContentLoaded
-    * Verður tossalisti ef spurt út í
-  * DOM og form
+  * Einingar
+    * JavaScript modules, ES6 einingar
   * Villumeðhöndlun í vafra
     * Unobtrusive JavaScript
+* Async forritun
+  * Callbacks
+  * Promises
+    * `then`, `catch`
+    * `async`, `await`
 * HTTP og Ajax
   * Request-response
   * Aðferðir
   * Headers
   * Stöðukóðar
-  * HTTP og <form>
-  * JSON
-  * fetch
+  * HTTP og `<form>`
+  * `JSON`
+  * `fetch`
+  * URL
 
 ## Líklegt
 
-* CLI
-  * CLI vs GUI
+* CLI og GUI
 * Internetið
 * Vefurinn
-* URL
 * Vafri
-* HyperText
+* HyperText & HyperLink
+* Stafasett
+  * UTF-8
+  * Tenging við HTML
+* Vefþjónn
+* FTP
 * Markup language
+* Staðlar
 * W3C
 * HTML5
 * Að skrifa „snyrtilegt“ HTML/kóða
 * Linting, hvað er það, hvernig er það mismunandi milli HTML, CSS, JS
   * HTML validator
-* Vísað í efni
-  * Afstæðar og nákvæmar slóðir
 * Merkingarfræði
+  * Af hverju
+  * Úrelt element
   * div og span
 * Leitarvélarbestun / SEO
   * Lýsigögn
 * CSS shorthand
-* Box model
-  * Margin
-  * Padding
-  * Border
-  * Width, height
-* Specificity
-* Cascade
 * Reset
+* Að skrifa CSS
+  * CSS Validation
 * Visual formatting model
-  * Gerð boxa
+  * Gerð boxa, `display`
   * Eðlilegt flæði
   * Staðsetning með `position`
   * Þriðja víddin
@@ -165,17 +185,23 @@ Skipt niður í:
   * Hvernig settar og notaðar
   * Stærðir
   * Breytingar á letri og texta
+  * Hlaða inn letri
+  * Variable fonts
 * Bakgrunnir og litir
   * Setja og vinna með bakgrunn
   * Myndir í CSS
 * Gegnsæi í CSS
 * CSS variables
-* object-fit og myndir
+* `object-fit` og myndir
 * Flexbox
   * Ásar
   * flex items
   * Stærðir, flex grow, shrink og basis
 * Mobile first
+* Að vinna með grid í CSS
+  * CSS grid, hvernig virkar
+  * Dálkar og raðir
+  * Skipta upp m.v. stærð vafra
 * Kvikun
   * transition og animation
   * hröðun
@@ -184,52 +210,121 @@ Skipt niður í:
 * CSS í stærri verkefnum
   * BEM
   * Prófanir í öllum vöfrum
-* Að vinna með grid í CSS
-  * Skipta upp m.v. stærð vafra
+  * Layout VS components
 * Node.js
   * npm
     * pakkastjórar og pakkakerfi
     * package.json
+    * global tól VS í verkefnum
+    * dependency
+    * scripts
   * browser-sync
   * sass
-    * node-sass
+    * Munur á sass og css
+    * Viðbætur
   * stylelint
   * eslint
-  * transpiler
-    * babel
-  * Að pakka kóða
-    * rollup
 * JavaScript
   * Munur á túlkuðu og þýddu forritunarmáli
+  * Primitive wrappers
+  * Keyrsluumhverfi
   * Forgangur virkja í JS
-  * Einstæðir virkjar
-  * parseInt
+  * veikar og öruggar týpur
   * Munur á segðum, skipunum, forritum
-  * Keyrslu umhverfi
-  * Date
+  * `Math`
+  * `Date`
+  * `break` og `continue`
+  * Föll
+    * Sjálfgefin gildi
   * Samanburður á fylkjum og hlutum
+  * `for in` og `for of` lykkjur
   * Rest parameters
   * Spread operator
   * Destructuring
   * Villumeðhöndlun
     * try catch
-  * Einingar
-    * ES6 einingar
-    * IIFE
-    * Module pattern
-* JS og vafrinn
+* DOM
   * Að teikna síðu
   * Að leita í trjám
+  * `textContent`, `innerText`, `innerHTML`
   * preventDefault og stopPropagation
-* Ajax
-  * XMLHttpRequest
-  * Same-origin og CORS
+  * `DOMContentLoaded`, `readystate`
+  * `setTimeout`, `setInterval`
+* Vefþjónustur
+  * Stöður á gögnum
 * Fallaforritun
   * Æðri föll
   * Hrein föll
   * Skilja helstu föll
-    * map, reduce, filter
-    * Verður tossalisti ef spurt út í
+    * `map`, `reduce`, `filter`
+* Testing
+  * Unit test
+  * Continuous integration
+  * Continuous deployment
+
+## Ólíklegt
+
+* IP tölur
+* Port
+* ASCII
+* Skipting á markup languages
+* Markdown
+* HTML 4
+* XHTML
+* ARIA
+* Gervi-klasar (pseudo-classes)
+* Gervi-element (pseudo-element)
+* Collapsing margin
+* Containing block
+* `!important`
+* Gildi reiknuð, erfð, upphafsgildi, `inherit`, `initial`
+* Float
+* CSS columns
+* Prent CSS
+* `env()`
+* Logical properties
+* `border-radius`
+* `box-shadow`
+* CSS shapes
+* `clip-path`
+* Stærðarhlutföll, aspect ratio
+* Container queries
+* `<picture>`
+* CSS perspective
+* Hönnun
+  * Röðun og jöfnun (alignment)
+  * Hópun
+  * Andstæður (contrast)
+  * Letur
+  * Vertical rhythm
+  * Litir
+* Node.js
+  * transpiler
+    * babel
+  * Að pakka kóða
+    * rollup
+* JavaScript
+  * typeof
+  * skammhlaup
+  * Frátekin orð
+  * `prompt`, `alert`, `confirm`
+  * Epsilon gildi
+  * Hoisting
+  * Variadic functions
+  * delete og in á hlutum
+  * regular expressions
+  * `Promise.all`, `Promise.race`
+  * Layout og repaint
+  * IIFE
+  * Module pattern
+* DOM
+  * `getElement*` föll
+  * `dataset`
+  * Layout tengingar
+* HTTP
+  * stateless
+* Same-origin og CORS
+* Prettier
 * Hlutir
   * Hvernig virka hlutir í JS
   * this
@@ -240,58 +335,9 @@ Skipt niður í:
   * Munur frá hefðbundinni OO forritun
   * Smiðir og new
   * ES6 classes
-
-## Ólíklegt
-
-* IP tölur
-* Vefþjónn
-* Port
-* Stafasett
-  * ASCII
-  * UTF-8
-* FTP
-* Skipting á markup languages
-* Markdown
-* XHTML
-* ARIA
-* Gervi-klasar (pseudo-classes)
-* Gervi-element (pseudo-element)
-* Collapsing margin
-* !important
-* Gildi reiknuð, erfð, upphafsgildi
-* Float
-* CSS columns
-* Prent CSS
-* border-radius
-* box-shadow
-* CSS shapes
-* `<picture>`
-* CSS perspective
-* Hönnun
-  * Röðun og jöfnun (alignment)
-  * Hópun
-  * Andstæður (contrast)
-  * Letur
-  * Vertical rhythm
-  * Litir
-* JavaScript
-  * typeof
-  * veikar og öruggar týpur
-  * skammhlaup
-  * Frátekin orð
-  * prompt, alert, confirm
-  * Epsilon gildi
-  * Hoisting
-  * Variadic functions
-  * delete og in á hlutum
-  * strict mode
-  * regular expressions
-  * Promise.all, Promise.race
-  * Layout og repaint
-* HTTP
-  * stateless
-* Ajax
-  * XMLHttpRequest
+* Test-driven development
+* Jest
+* HTML5 API's
 
 ## Kemur ekki fyrir
 
@@ -304,10 +350,25 @@ Skipt niður í:
 * „Vafrastríðin“
 * DTD & DocType
 * XML
-* Gradient
-* Vafraforskeyti
-* CSS feature queries
-* Pixel ratio
-* Bezier kúrvur
-* requestAnimationFrame
-* debouncing
+* CSS
+  * Gradient
+  * Vafraforskeyti
+  * CSS feature queries
+  * Pixel ratio
+  * Bootstrap, material, tailwind
+  * Bezier kúrvur
+* Tæki&tól, Git
+  * `package-lock.json`
+  * Source maps
+  * `.gitignore`
+  * Conventional commits
+* JavaScript
+  * TC39
+  * `Symbol`
+  * `requestAnimationFrame`
+  * debouncing
+  * repaint
+  * XMLHttpRequest
+  * strict mode
+  * RegEx
+* REST
