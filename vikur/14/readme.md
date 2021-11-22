@@ -2,15 +2,15 @@
 
 ## Fyrirlestrar
 
-[Fyrirlestur 14.1: HTML upprifjun](14.1.html.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 14.1: HTML upprifjun](14.1.html.md)
 
-[Fyrirlestur 14.2: CSS upprifjun](14.2.css.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 14.2: CSS upprifjun](14.2.css.md)
 
-[Fyrirlestur 14.3: Tæki&tól, Git](14.3.tools.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 14.3: Tæki&tól, Git](14.3.tools.md)
 
-[Fyrirlestur 14.4: JavaScript upprifjun](14.4.javascript.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 14.4: JavaScript upprifjun](14.4.javascript.md)
 
-[Fyrirlestur 14.5: Lokapróf](14.4.lokaprof.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 14.5: Lokapróf](14.5.lokaprof.md), [vídeó (1:01:28)](https://youtu.be/VweaRyz9ByU)
 
 ## Verkefni
 
